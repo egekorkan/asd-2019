@@ -1,0 +1,240 @@
+full_title: DATE Autonomous Systems Design Workshop
+short_title: ADS-2019
+email: ege.korkan@tum.de
+description: > # this means to ignore newlines until "baseurl:"
+  DATE Autonomous Systems Design Workshop takes place during the last day of the DATE Conference.
+  It aims to explore recent industrial and academic methods and methodologies in autonomous systems design.
+location: Florence, Italy 2019
+date: 29 March 2019
+logo_path: ./assets/images/logo2019.jpg
+
+slideshow:
+  - id: 0
+    image_path: ./assets/images/slideshow/image0.jpg
+    description: aerial photrography of building
+    photographer_name: Van Williams
+    photographer_link: https://unsplash.com/@vanunsplash
+    active: True 
+  - id: 1
+    image_path: ./assets/images/slideshow/image1.jpg
+    description: Ipad, location, icon and car
+    photographer_name: Rawpixel
+    photographer_link: https://unsplash.com/@rawpixel
+    active: True
+  - id: 2
+    image_path: ./assets/images/slideshow/image2.jpg
+    description: Fine bronze statue copy of an ancient Greek work - "Il porcellino" ("little pig", actually a boar), by XVIIth century sculptor Pietro Tacca, (1577-1640)
+    photographer_name: Radomił Binek
+    photographer_link: https://commons.wikimedia.org/wiki/User:Radomil
+    active: True
+  - id: 3
+    image_path: ./assets/images/slideshow/image3.jpg
+    description: Driver with Apple Watch
+    photographer_name: Luca Bravo
+    photographer_link: https://unsplash.com/@lucabravo
+    active: True
+  - id: 4
+    image_path: ./assets/images/slideshow/image4.jpg
+    description: Dome of Cattedrale di Santa Maria del Fiore (Florence)
+    photographer_name: Livioandronico2013
+    photographer_link: https://commons.wikimedia.org/wiki/User:Livioandronico2013
+    active: True
+  - id: 5
+    image_path: ./assets/images/slideshow/image5.jpg
+    description: Shibuya Crossing
+    photographer_name: Alex Knight
+    photographer_link: https://unsplash.com/@agkdesign
+    active: True
+  - id: 6
+    image_path: ./assets/images/slideshow/image6.jpg
+    description: Bistecca alla fiorentina mit Pellkartoffeln
+    photographer_name: mike packard
+    photographer_link: https://www.flickr.com/photos/ghort/
+    active: True
+  - id: 7
+    image_path: ./assets/images/slideshow/image7.jpg
+    description: Which Way?
+    photographer_name: Nick Fewings
+    photographer_link: https://unsplash.com/@jannerboy62
+    active: True
+  - id: 8
+    image_path: ./assets/images/slideshow/image8.jpg
+    description: Light trails in front of Volkswagen Beetle 
+    photographer_name: Matthew Szlichta
+    photographer_link: https://unsplash.com/@matthewszlichta
+    active: True
+  - id: 9
+    image_path: ./assets/images/slideshow/image9.jpg
+    description: Phoenix Park Monument Roundabout
+    photographer_name: Lucas Miguel
+    photographer_link: https://unsplash.com/@lucasmiguel
+    active: True
+  - id: 10
+    image_path: ./assets/images/slideshow/image10.jpg
+    description: Kyoto Photo
+    photographer_name: Victoriano Izquierdo
+    photographer_link: https://unsplash.com/@victoriano
+    active: True
+
+navbar:
+  - id: 0
+    label: Home
+    path: /
+    visible: True
+  - id: 1
+    label: Organization
+    path: /organization.html
+    visible: True
+  - id: 2
+    label: Call for Papers
+    path: /cfp.html
+    visible: True
+  - id: 3
+    label: Submission
+    path: /submission.html
+    visible: True
+  - id: 4
+    label: Programs
+    path: /program.html
+    visible: False
+  - id: 5
+    label: Venue
+    path: /venue.html
+    visible: True
+  - id: 6
+    label: Registration
+    path: /registration.html
+    visible: True
+deadlines:
+  - date: 2018-11-25
+    timezone: 23:59 (CET)
+    text: Submission Deadline
+    pass_due: False
+  - date: 2019-01-20
+    text: Authors Notification
+    pass_due: False
+  - date: 2019-01-03
+    text: Camera-ready Version
+    pass_due: False
+  - date: 2019-03-29
+    text: Workshop Day
+    pass_due: False
+news:
+  - date: 2018-09-17
+    text: Website online
+sponsors:
+  - name: ACM
+    logo_path: ./assets/images/sponsors/acm-logo.png
+  - name: IEEE
+    logo_path: ./assets/images/sponsors/ieee-logo.gif
+social_media:
+#NEEDED?
+  facebook_link: https://www.facebook.com/DATE-Conference-249437975212406/
+  twitter_link:
+
+organizers:
+  - name: Rolf Ernst
+    org: TU Braunschweig
+    homepage:
+  - name: Selma Saidi
+    org: Hamburg University of Technology
+    homepage:
+  - name: Dirk Ziegenbein 
+    org: Robert Bosch GmbH
+    homepage:
+
+program_chair:
+  - name: Qun Li
+    org: College of William and Mary (USA)
+    homepage: http://www.cs.wm.edu/~liqun
+  - name: Songqing Chen
+    org: George Mason University (USA)
+    homepage: http://www.cs.gmu.edu/~sqchen/
+steering_committees:
+  - name: Marko Bertogna
+    org: University    of    Modena, Italy
+    homepage: 
+  - name: Naehyuck Chang
+    org: Korea Advanced Institute of Science and Technology, Korea
+    homepage: 
+  - name: Klaus Dietmayer
+    org: Ulm University, Germany
+    homepage: 
+  - name: Rolf Ernst
+    org: TU Braunschweig, Germany
+    homepage:
+  - name: Karl Henrik Johannson
+    org: KTH Royal Institute of Technology, Sweden
+    homepage:
+  - name: Matthias Traub
+    org: BMW, Germany
+    homepage:
+  - name: Dirk Ziegenbein
+    org: Robert Bosch GmbH, Germany
+    homepage:
+technical_program_committees:
+  - name: Stefan Kowalewski 
+    org: RWTH Aachen University, Germany
+    homepage:
+  - name: Marco Di Natale
+    org: Scuola Superiore Sant'Anna, Italy
+    homepage: 
+  - name: Arne Hamann
+    org: Robert Bosch GmbH, Germany
+    homepage: 
+  - name: Gabor Orosz
+    org: University of Michigan, USA
+    homepage:
+  - name: Sebastian Fischmeister
+    org: University    of    Waterloo,    Canada
+    homepage:
+  - name: Martina Maggio
+    org: Lund University, Sweden
+    homepage: 
+  - name: Mohammad Al Faruque
+    org: University of California, Irvine, USA
+    homepage: 
+  - name: Marko    Bertogna
+    org: University of Modena, Italy
+    homepage: 
+  - name: Aviral Shrivastava
+    org: Arizona State University, USA 
+    homepage: 
+  - name: Rahul Mangharam
+    org: University of Pennsylvania, USA
+    homepage: 
+  - name: Jyotirmoy Vinay Deshmukh
+    org: University of Southern California, USA
+    homepage: 
+  - name: Karl Meinke
+    org: KTH Royal Institute of Technology, Sweden
+    homepage:
+  - name: Samarjit Chakraborty
+    org: Technical University of Munich, Germany
+    homepage: 
+  - name: Lin Xue
+    org: Northeastern University, USA
+    homepage: 
+  - name: Dongwha Shin
+    org: Yeungnam University, Korea
+    homepage: 
+  - name: Assad Al Alam
+    org: Scania CV AB, Sweden
+    homepage: 
+  - name: Markus Maurer
+    org: TU Braunschweig, Germany
+    homepage:
+  - name: Bart Besselink
+    org: University of Groningen, Netherlands
+    homepage:
+  - name: Peter Bergmiller (to be confirmed)
+    org: Audi Ingolstadt , Germany
+    homepage:
+  - name: Thomas Form (to be confirmed)
+    org: Volkswagen, Germany
+    homepage:
+webmaster:
+  - name: Ege Korkan  
+    org: Technical University of Munich
+    homepage: https://www.esi.ei.tum.de/en/staff/korkan/
+
