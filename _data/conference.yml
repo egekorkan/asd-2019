@@ -1,5 +1,5 @@
 full_title: DATE Autonomous Systems Design Workshop
-short_title: ADS-2019
+short_title: ASD-2019
 email: ege.korkan@tum.de
 description: > # this means to ignore newlines until "baseurl:"
   DATE Autonomous Systems Design Workshop takes place during the last day of the DATE Conference.
@@ -82,26 +82,30 @@ navbar:
     path: /
     visible: True
   - id: 1
-    label: Organization
+    label: Organizers
     path: /organization.html
     visible: True
   - id: 2
+    label: TPC
+    path: /tpc.html
+    visible: True
+  - id: 3
     label: Call for Papers
     path: /cfp.html
     visible: True
-  - id: 3
+  - id: 4
     label: Submission
     path: /submission.html
     visible: True
-  - id: 4
+  - id: 5
     label: Programs
     path: /program.html
     visible: False
-  - id: 5
+  - id: 6
     label: Venue
     path: /venue.html
     visible: True
-  - id: 6
+  - id: 7
     label: Registration
     path: /registration.html
     visible: True
@@ -123,10 +127,8 @@ news:
   - date: 2018-09-17
     text: Website online
 sponsors:
-  - name: ACM
-    logo_path: ./assets/images/sponsors/acm-logo.png
-  - name: IEEE
-    logo_path: ./assets/images/sponsors/ieee-logo.gif
+  - name: DATE
+    logo_path: ./assets/images/date.jpg
 social_media:
 #NEEDED?
   facebook_link: https://www.facebook.com/DATE-Conference-249437975212406/
@@ -135,13 +137,13 @@ social_media:
 organizers:
   - name: Rolf Ernst
     org: TU Braunschweig
-    homepage:
+    homepage: https://www.ida.ing.tu-bs.de/home/mitarbeiter/ernst
   - name: Selma Saidi
     org: Hamburg University of Technology
-    homepage:
+    homepage: https://www.tuhh.de/es/esd/people/selma-saidi.html
   - name: Dirk Ziegenbein 
     org: Robert Bosch GmbH
-    homepage:
+    homepage: https://www.linkedin.com/in/dirk-ziegenbein-aa5a03/?originalSubdomain=de
 
 program_chair:
   - name: Qun Li
@@ -150,89 +152,93 @@ program_chair:
   - name: Songqing Chen
     org: George Mason University (USA)
     homepage: http://www.cs.gmu.edu/~sqchen/
+publicity_chair:
+  - name: Sebastian Steinhorst
+    org: Technical University of Munich, Germany
+    homepage: https://www.esi.ei.tum.de/en/members/steinhorst/
 steering_committees:
   - name: Marko Bertogna
     org: University    of    Modena, Italy
-    homepage: 
+    homepage: http://algo.ing.unimo.it/people/marko/
   - name: Naehyuck Chang
     org: Korea Advanced Institute of Science and Technology, Korea
-    homepage: 
+    homepage: http://www.cad4x.kaist.ac.kr/professor
   - name: Klaus Dietmayer
     org: Ulm University, Germany
-    homepage: 
+    homepage: https://www.uni-ulm.de/in/mrm/institut/mitarbeiter/institutsleitung/prof-dr-ing-klaus-dietmayer/
   - name: Rolf Ernst
     org: TU Braunschweig, Germany
-    homepage:
+    homepage: https://www.ida.ing.tu-bs.de/home/mitarbeiter/ernst
   - name: Karl Henrik Johannson
     org: KTH Royal Institute of Technology, Sweden
-    homepage:
+    homepage: https://people.kth.se/~kallej/
   - name: Matthias Traub
     org: BMW, Germany
-    homepage:
+    homepage: https://www.xing.com/profile/Matthias_Traub2/cv
   - name: Dirk Ziegenbein
     org: Robert Bosch GmbH, Germany
-    homepage:
+    homepage: https://www.linkedin.com/in/dirk-ziegenbein-aa5a03/?originalSubdomain=de
 technical_program_committees:
   - name: Stefan Kowalewski 
     org: RWTH Aachen University, Germany
-    homepage:
+    homepage: https://embedded.rwth-aachen.de/doku.php?id=en:lehrstuhl:mitarbeiter:kowalewski
   - name: Marco Di Natale
     org: Scuola Superiore Sant'Anna, Italy
-    homepage: 
+    homepage: http://retis.sssup.it/~marco/
   - name: Arne Hamann
     org: Robert Bosch GmbH, Germany
-    homepage: 
+    homepage: https://www.linkedin.com/in/arne-hamann-9045181/
   - name: Gabor Orosz
     org: University of Michigan, USA
-    homepage:
+    homepage: http://www-personal.umich.edu/~orosz/
   - name: Sebastian Fischmeister
     org: University    of    Waterloo,    Canada
-    homepage:
+    homepage: https://uwaterloo.ca/embedded-software-group/people-profiles/sebastian-fischmeister
   - name: Martina Maggio
     org: Lund University, Sweden
-    homepage: 
+    homepage: https://www.lunduniversity.lu.se/lucat/user/956d85f12fa5ee7e7f40327c887c357c
   - name: Mohammad Al Faruque
     org: University of California, Irvine, USA
-    homepage: 
-  - name: Marko    Bertogna
+    homepage: http://aicps.eng.uci.edu/
+  - name: Marko Bertogna
     org: University of Modena, Italy
-    homepage: 
+    homepage: http://algo.ing.unimo.it/people/marko/
   - name: Aviral Shrivastava
     org: Arizona State University, USA 
-    homepage: 
+    homepage: http://aviral.lab.asu.edu/aviral-shrivastava/
   - name: Rahul Mangharam
     org: University of Pennsylvania, USA
-    homepage: 
+    homepage: https://www.seas.upenn.edu/~rahulm/
   - name: Jyotirmoy Vinay Deshmukh
     org: University of Southern California, USA
-    homepage: 
+    homepage: http://www-bcf.usc.edu/~jdeshmuk/
   - name: Karl Meinke
     org: KTH Royal Institute of Technology, Sweden
-    homepage:
+    homepage: http://www.nada.kth.se/~karlm/
   - name: Samarjit Chakraborty
     org: Technical University of Munich, Germany
-    homepage: 
+    homepage: https://www.rcs.ei.tum.de/en/staff/chakraborty/
   - name: Lin Xue
     org: Northeastern University, USA
-    homepage: 
+    homepage: http://www.ece.neu.edu/people/lin-xue
   - name: Dongwha Shin
     org: Yeungnam University, Korea
-    homepage: 
+    homepage: https://www.researchgate.net/profile/Donghwa_Shin3
   - name: Assad Al Alam
     org: Scania CV AB, Sweden
-    homepage: 
+    homepage: https://www.linkedin.com/in/assad-alam-18ba602/?originalSubdomain=se
   - name: Markus Maurer
     org: TU Braunschweig, Germany
-    homepage:
+    homepage: https://www.ifr.ing.tu-bs.de/de/institut/mitarbeiter_99/
   - name: Bart Besselink
     org: University of Groningen, Netherlands
-    homepage:
+    homepage: https://www.rug.nl/staff/b.besselink/research
   - name: Peter Bergmiller (to be confirmed)
     org: Audi Ingolstadt , Germany
-    homepage:
+    homepage: https://www.linkedin.com/in/peter-bergmiller-304a1a111/?originalSubdomain=de
   - name: Thomas Form (to be confirmed)
     org: Volkswagen, Germany
-    homepage:
+    homepage: https://www.linkedin.com/in/thomas-form-b20b8718/?originalSubdomain=de
 webmaster:
   - name: Ege Korkan  
     org: Technical University of Munich
