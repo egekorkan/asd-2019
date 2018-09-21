@@ -1,21 +1,23 @@
 .body {
-   font-family:  Helvetica,Arial,sans-serif
+    font-family: Helvetica, Arial, sans-serif
 }
 
 .carousel {
-  -webkit-transform-style: preserve-3d;
-  -webkit-backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
 }
-.topSpace{
+
+.topSpace {
     font-size: 0.1em;
 }
+
 .jumbotron,
 .carousel-item {
     height: 300px;
     /* border-radius: 0; */
 }
 
-.logo{
+.logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -30,11 +32,11 @@
     /* margin-top: 25px; */
 }
 
-.headerTextName{
+.headerTextName {
     font-size: 1.6em;
 }
 
-.headerTextDate{
+.headerTextDate {
     margin-top: 0.8em;
     font-size: 1.5em;
 }
@@ -57,12 +59,33 @@
 .alert,
 .card,
 .jumbotron,
-.nav, 
+.nav,
 .carousel {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
+.my-card-header-text,
+.my-card-header {
+    background: #01294d;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* margin-top: 0.25rem;
+    margin-bottom: 1.25rem; */
+    padding-top: 4px;
+    /* padding-bottom: 4px; */
+    overflow: hidden;
+    /* padding-left: 4px; */
+    
+}
+
+.my-card-header-text{
+    margin-left: 20px;
+    margin-bottom: 0.5rem;
+    /* vertical-align: middle; */
+    font-size: 80%;
+}
 
 .carousel-caption {
     bottom: 1rem;
@@ -75,7 +98,7 @@
 }
 
 .card {
-    margin-top: 0.25rem; 
+    margin-top: 0.25rem;
     margin-bottom: 1.25rem;
     /* border-radius: 12px; */
     overflow: hidden;
@@ -102,9 +125,10 @@
 .committee p {
     margin-left: 20px;
 }
+
 .card-header {
-    /* padding-top: 4px;
-    padding-bottom: 4px; */
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .card-block p {
@@ -136,7 +160,7 @@
 }
 
 .sponsor {
-    margin-top: 0.75rem; 
+    margin-top: 0.75rem;
     margin-bottom: 0.75rem;
 }
 
@@ -146,14 +170,14 @@
 }
 
 .sponsor h5 {
-    margin-top: 1.5rem; 
+    margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
 footer {
-    padding-top: 1.5rem; 
+    padding-top: 1.5rem;
     border-top: 0.05rem solid #e5e5e5;
-    margin-top: 1.0rem; 
+    margin-top: 1.0rem;
 }
 
 .card-header,
@@ -162,5 +186,10 @@ footer {
     font-size: 80%;
 }
 
-.navbar-inverse .navbar-nav  > li > a:hover { color: #5393c5 !important; }
-.navbar-inverse .navbar-nav  > .active { color: #5393c5 !important; }
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #5393c5 !important;
+}
+
+.navbar-inverse .navbar-nav>.active {
+    color: #5393c5 !important;
+}
