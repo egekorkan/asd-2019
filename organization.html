@@ -11,110 +11,46 @@ slide_id: 1
         {% for organizer in site.data.conference.organizers %}
         <p class="my-text"><a href="{{ organizer.homepage }}"><strong>{{ organizer.name }}</strong></a>, {{
             organizer.org }} </p>
-            {% endfor %}
-            {% else %}
-            {% endif %}
-        
-<div class="my-text-header"><strong>Publicity Chair</strong></div>
-{% if site.data.conference.publicity_chair %}
-{% for publicity_chair in site.data.conference.publicity_chair %}
-<p class="my-text"><a href="{{ publicity_chair.homepage }}"><strong>{{ publicity_chair.name }}</strong></a>, {{
-publicity_chair.org }} </p>
-{% endfor %}
-{% else %}
-{% endif %}
+        {% endfor %}
+        {% else %}
+        {% endif %}
 
-<div class="my-text-header"><strong>Webmaster</strong></div>
-{% if site.data.conference.webmaster %}
-{% for webmaster in site.data.conference.webmaster %}
-<p class="my-text"><a href="{{ webmaster.homepage }}"><strong>{{ webmaster.name }}</strong></a>, {{
-webmaster.org }} </p>
-{% endfor %}
-{% else %}
-{% endif %}
+        <div class="my-text-header"><strong>Publicity Chair</strong></div>
+        {% if site.data.conference.publicity_chair %}
+        {% for publicity_chair in site.data.conference.publicity_chair %}
+        <p class="my-text"><a href="{{ publicity_chair.homepage }}"><strong>{{ publicity_chair.name }}</strong></a>, {{
+            publicity_chair.org }} </p>
+        {% endfor %}
+        {% else %}
+        {% endif %}
 
-<div class="my-text-header"><strong>Steering Committee</strong></div>
-{% if site.data.conference.steering_committees %}
-{% for committee in site.data.conference.steering_committees %}
-<p class="my-text"><a href="{{ committee.homepage }}"><strong>{{ committee.name }}</strong></a>, {{
-committee.org }} </p>
-{% endfor %}
-{% else %}
-{% endif %}
+        <div class="my-text-header"><strong>Webmaster</strong></div>
+        {% if site.data.conference.webmaster %}
+        {% for webmaster in site.data.conference.webmaster %}
+        <p class="my-text"><a href="{{ webmaster.homepage }}"><strong>{{ webmaster.name }}</strong></a>, {{
+            webmaster.org }} </p>
+        {% endfor %}
+        {% else %}
+        {% endif %}
 
+        <div class="my-text-header"><strong>Steering Committee</strong></div>
+        {% if site.data.conference.steering_committees %}
+        {% for committee in site.data.conference.steering_committees %}
+        <p class="my-text"><a href="{{ committee.homepage }}"><strong>{{ committee.name }}</strong></a>, {{
+            committee.org }} </p>
+        {% endfor %}
+        {% else %}
+        {% endif %}
 
-            <div class="my-card-header">
-                <div class="my-card-header-text text-white "><strong>Workshop Organizers</strong></div>
-                {% if site.data.conference.organizers %}
-                {% for organizer in site.data.conference.organizers %}
-                <div class="card-block bg-faded committee">
-                    <p><a href="{{ organizer.homepage }}"><strong>{{ organizer.name }}</strong></a>, {{ organizer.org
-                        }}
-                </div>
-                {% endfor %}
-                {% else %}
-                <div class="card-block bg-faded committee">
-                    <p class="card-title">TBA</p>
-                    <p><strong>TBA</strong>
-                        <p>
-                            <p class="card-subtitle text-muted" style="font-size: 90%;">TBA</p>
-                </div>
-                {% endif %}
-            </div>
-            <!-- Publicity Chair -->
-            <div class="my-card-header">
-                <div class="my-card-header-text text-white"><strong>Publicity Chair</strong>
-                </div>
-                {% if site.data.conference.publicity_chair %}
-                {% for publicity_chair in site.data.conference.publicity_chair %}
-                <div class="card-block bg-faded committee">
-                    <p><a href="{{ committee.homepage }}"><strong>{{ publicity_chair.name }}</strong></a>, {{
-                        publicity_chair.org }}
-                </div>
-                {% endfor %}
-                {% else %}
-                <div class="card-block bg-faded committee">
-                    <p><strong>TBA</strong>
-                </div>
-                {% endif %}
-            </div>
-            <!--######### Webmaster ##########-->
-            <div class="my-card-header">
-                <div class="my-card-header-text text-white"><strong>Webmaster</strong></div>
-                {% if site.data.conference.webmaster %}
-                {% for webmaster in site.data.conference.webmaster %}
-                <div class="card-block bg-faded committee">
-                    <p><a href="{{ committee.homepage }}"><strong>{{ webmaster.name }}</strong></a>, {{ webmaster.org
-                        }}
-                </div>
-                {% endfor %}
-                {% else %}
-                <div class="card-block bg-faded committee">
-                    <p><strong>TBA</strong>
-                        <p>
-                            <p class="card-subtitle text-muted" style="font-size: 90%;">TBA</p>
-                </div>
-                {% endif %}
-            </div>
-            <!--######### Steering ##########-->
-            <div class="my-card-header">
-                <!-- <div class="card-header text-white bg-inverse"><strong>Steering Committee</strong></div> -->
-                <div class="my-card-header-text text-white"><strong>Steering Committee</strong></div>
-                {% if site.data.conference.steering_committees %}
-                {% for committee in site.data.conference.steering_committees %}
-                <div class="card-block bg-faded committee">
-                    <p><a href="{{ committee.homepage }}"><strong>{{ committee.name }}</strong></a>, {{ committee.org
-                        }}
-                </div>
-                {% endfor %}
-                {% else %}
-                <div class="card-block bg-faded committee">
-                    <p><strong>TBA</strong>
-                </div>
-                {% endif %}
-            </div>
+<div class="my-text-header"><strong>Technical Program Committee</strong></div>
+{% if site.data.conference.technical_program_committees %}
+{% for committee in site.data.conference.technical_program_committees %}
+        <p class="my-text"><a href="{{ committee.homepage }}"><strong>{{ committee.name }}</strong></a>, {{
+            committee.org }} </p>
+        {% endfor %}
+        {% else %}
+        {% endif %}
 
-            <!--####################################-->
+        <!--####################################-->
+
     </div>
-
-</div>

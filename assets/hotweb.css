@@ -25,14 +25,18 @@
 }
 
 .headerTextDate,
-.headerTextName,
+.headerTextName1,
+.headerTextName2,
 .headerTextLocation {
     color: white;
     text-align: center;
     /* margin-top: 25px; */
 }
 
-.headerTextName {
+.headerTextName1 {
+    font-size: 1em;
+}
+.headerTextName2 {
     font-size: 1.6em;
 }
 
@@ -88,7 +92,7 @@
 }
 
 .my-text a {
-    color: inherit;
+    color: #1667a5;
 }
 
 .my-card-header-text,
