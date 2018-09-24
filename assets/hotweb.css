@@ -47,7 +47,14 @@
     margin: 0px 0px 5px 0px;
 }
 
-
+.my-jumbotron{
+        background-color: #01294d;
+        padding: 0px 5px 0px 5px;
+        margin: 0px 0px 5px 0px;
+        height: 300px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 /* .jumbotron p {
     font-size: 1.1em;
@@ -65,6 +72,25 @@
 
 }
 
+.my-text-header
+.my-text{
+    color: #01294d;
+}
+
+.my-text {
+    font-size: 80%;
+    margin-left: 30px
+}
+
+.my-text-header{
+    margin-bottom: 10px;
+    margin-left:10px;
+}
+
+.my-text a {
+    color: inherit;
+}
+
 .my-card-header-text,
 .my-card-header {
     background: #01294d;
@@ -72,13 +98,14 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* margin-top: 0.25rem;
-    margin-bottom: 1.25rem; */
+    /* margin-bottom: 1.25rem; */
     padding-top: 4px;
     /* padding-bottom: 4px; */
     overflow: hidden;
     /* padding-left: 4px; */
     
 }
+
 
 .my-card-header-text{
     margin-left: 20px;

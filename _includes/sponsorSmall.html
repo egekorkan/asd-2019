@@ -1,0 +1,3 @@
+{% for sponsor in site.data.conference.sponsors %}
+<img class="img-fluid mr-auto d-inline-block mb-2 mt-2 mr-4" src="{{ site.baseurl }}{{ sponsor.small_logo_path }}" alt="{{ sponsor.name }}">
+{% endfor %}

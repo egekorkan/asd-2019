@@ -1,0 +1,8 @@
+Welcome to ASD 2019, co-located with DATE 2019
+
+
+ASD is the 1st international workshop on Autonomous Systems Design. The goal of ASD is to explore recent industrial and academic methods and methodologies in autonomous systems design. This includes several areas: 
+1) embedded and cyber-physical systems platforms that implement and execute the autonomous system functions including their architectures, hardware, software and communication, 
+2) the design for autonomous systems including processes, modelling, optimization, verification, validation, and test
+3) all aspects of dependable systems design for autonomous systems including, but not limited to, functional safety concepts, fail-operational systems design, functional safety for applications with machine learning, safe and secure changes and updates, autonomous systems security. 
+While not excluding other application areas, the initial focus of ASD 2019 will be on autonomous vehicles and their infrastructure.

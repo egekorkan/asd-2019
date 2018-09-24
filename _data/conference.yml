@@ -1,8 +1,8 @@
-full_title: DATE Autonomous Systems Design Workshop
+full_title: DATE Workshop on "Autonomous Systems Design"
 short_title: ASD-2019
 email: ege.korkan@tum.de
 description: > # this means to ignore newlines until "baseurl:"
-  DATE Autonomous Systems Design Workshop takes place during the last day of the DATE Conference.
+  DATE Workshop on Autonomous Systems Design takes place during the last day of the DATE Conference.
   It aims to explore recent industrial and academic methods and methodologies in autonomous systems design.
 location: Florence, Italy 2019
 date: 29 March 2019
@@ -88,7 +88,8 @@ navbar:
   - id: 2
     label: TPC
     path: /tpc.html
-    visible: True
+    visible: False
+    unclickable: True
   - id: 3
     label: Call for Papers
     path: /cfp.html
@@ -129,6 +130,7 @@ news:
 sponsors:
   - name: DATE
     logo_path: ./assets/images/date.jpg
+    small_logo_path: ./assets/images/dateSmall.jpg
 social_media:
 #NEEDED?
   facebook_link: https://www.facebook.com/DATE-Conference-249437975212406/
