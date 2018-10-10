@@ -1,6 +1,7 @@
 {% for sponsor in site.data.conference.sponsors %}
 {% if sponsor.small_logo_path != nil %}
-<img class="img-fluid mx-auto d-block" src="{{ site.baseurl }}{{ sponsor.small_logo_path }}" alt="{{ sponsor.name }}"
-style="width:50%">
+<a href="https://www.date-conference.com"><img class="img-fluid mx-auto d-block" src="{{ site.baseurl }}{{ sponsor.small_logo_path }}"
+        alt="{{ sponsor.name }}"
+style="width:50%"></a>
 {% endif %}
 {% endfor %}

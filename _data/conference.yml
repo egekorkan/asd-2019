@@ -22,36 +22,36 @@ slideshow:
     photographer_name: Rawpixel
     photographer_link: https://unsplash.com/@rawpixel
     active: True
-  - id: 2
-    image_path: ./assets/images/slideshow/image2.jpg
-    description: Fine bronze statue copy of an ancient Greek work - "Il porcellino" ("little pig", actually a boar), by XVIIth century sculptor Pietro Tacca, (1577-1640)
-    photographer_name: Radomił Binek
-    photographer_link: https://commons.wikimedia.org/wiki/User:Radomil
-    active: True
+  # - id: 2
+  #   image_path: ./assets/images/slideshow/image2.jpg
+  #   description: Fine bronze statue copy of an ancient Greek work - "Il porcellino" ("little pig", actually a boar), by XVIIth century sculptor Pietro Tacca, (1577-1640)
+  #   photographer_name: Radomił Binek
+  #   photographer_link: https://commons.wikimedia.org/wiki/User:Radomil
+  #   active: True
   - id: 3
     image_path: ./assets/images/slideshow/image3.jpg
     description: Driver with Apple Watch
     photographer_name: Luca Bravo
     photographer_link: https://unsplash.com/@lucabravo
     active: True
-  - id: 4
-    image_path: ./assets/images/slideshow/image4.jpg
-    description: Dome of Cattedrale di Santa Maria del Fiore (Florence)
-    photographer_name: Livioandronico2013
-    photographer_link: https://commons.wikimedia.org/wiki/User:Livioandronico2013
-    active: True
-  - id: 5
-    image_path: ./assets/images/slideshow/image5.jpg
-    description: Shibuya Crossing
-    photographer_name: Alex Knight
-    photographer_link: https://unsplash.com/@agkdesign
-    active: True
-  - id: 6
-    image_path: ./assets/images/slideshow/image6.jpg
-    description: Bistecca alla fiorentina mit Pellkartoffeln
-    photographer_name: mike packard
-    photographer_link: https://www.flickr.com/photos/ghort/
-    active: True
+  # - id: 4
+  #   image_path: ./assets/images/slideshow/image4.jpg
+  #   description: Dome of Cattedrale di Santa Maria del Fiore (Florence)
+  #   photographer_name: Livioandronico2013
+  #   photographer_link: https://commons.wikimedia.org/wiki/User:Livioandronico2013
+  #   active: True
+  # - id: 5
+  #   image_path: ./assets/images/slideshow/image5.jpg
+  #   description: Shibuya Crossing
+  #   photographer_name: Alex Knight
+  #   photographer_link: https://unsplash.com/@agkdesign
+  #   active: True
+  # - id: 6
+  #   image_path: ./assets/images/slideshow/image6.jpg
+  #   description: Bistecca alla fiorentina mit Pellkartoffeln
+  #   photographer_name: mike packard
+  #   photographer_link: https://www.flickr.com/photos/ghort/
+  #   active: True
   - id: 7
     image_path: ./assets/images/slideshow/image7.jpg
     description: Which Way?
@@ -108,14 +108,18 @@ navbar:
     path: /registration.html
     visible: True
 deadlines:
+  - date: 2018-11-18
+    timezone: 23:59 (CET)
+    text: Abstract Submission
+    pass_due: False
   - date: 2018-11-25
     timezone: 23:59 (CET)
-    text: Submission Deadline
+    text: Full Paper Submission
     pass_due: False
   - date: 2019-01-20
     text: Authors Notification
     pass_due: False
-  - date: 2019-01-03
+  - date: 2019-02-03
     text: Camera-ready Version
     pass_due: False
   - date: 2019-03-29
