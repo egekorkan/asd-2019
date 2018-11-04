@@ -24,7 +24,12 @@ markdown: kramdown
 exclude:
   - Gemfile
   - Gemfile.lock
+  - docs
+  - asd_firstpage.odg
+  - asd_firstpage.txt
+  - DATE_WS_AutonomousSystemsDesign_descrip.docx
+  - asd_organizers.odg
 
 timezone: Europe/Berlin
-# google_analytics: UA-99357652-1
+google_analytics: UA-127312090-1
 
