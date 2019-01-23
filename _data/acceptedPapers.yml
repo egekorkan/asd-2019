@@ -1,0 +1,18 @@
+- id: 1
+  title: "Fault-Tolerance by Graceful Degradation for Car Platoons"
+  authors: "Mohammed Baha E. Zarrouki, Verena Klös, Markus Grabowski"
+- id: 2
+  title: "Feasibility Study and Benchmarking of Embedded MPC for Vehicle Platoons"
+  authors: "Inaki Martin Soroa, Amr Inbrahim, Dip Goswami and Hong Li"
+- id: 3
+  title: "IDF-Autoware: Integrated Development Framework for ROS-based Self-driving Systems Using MATLAB/Simulink"
+  authors: "Shota Tokunaga, Yuki Horita, Yasuhiro Oda and Takuya Azumi"
+- id: 4
+  title: "Controlling Concurrent Change- A Multiview Approach Toward Updatable Vehicle Automation Systems"
+  authors: "Marcus Nolte, Mischa Möstl, Johannes Schlatow and Rolf Ernst"
+- id: 5
+  title: "Safety and Security Analysis of AEB for L4 Autonomous Vehicle using STPA"
+  authors: "Shefali Sharma, Adan Flores, Chris Hobbs, Jeff Stafford and Sebastian Fischmeister"
+- id: 6
+  title: "Towards a Formal Model of Recursive Self-Reflection"
+  authors: "Axel Jantsch"

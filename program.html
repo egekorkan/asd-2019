@@ -7,7 +7,22 @@ slide_id: 8
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
 
-        To be Announced
+        You can find the list of accepted papers and interactive presentations below. A program with time slots will be announced later.
+
+<div class="my-text-header"><strong>Accepted Papers</strong></div>
+
+{% for paper in site.data.acceptedPapers %}
+<p class="my-text"><strong>{{paper.title}}</strong>
+    <br>{{ paper.authors }} </p>
+{% endfor %}
+
+<div class="my-text-header"><strong>Interactive Presentations</strong></div>
+
+{% for paper in site.data.interactivePresentations %}
+<p class="my-text"><strong>{{paper.title}}</strong>
+    <br>{{ paper.authors }} </p>
+{% endfor %}
+
     
         <!-- {% for day in site.data.schedule %}
         <div>

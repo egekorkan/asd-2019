@@ -111,14 +111,14 @@ deadlines:
   - date: 2018-11-26
     timezone: 23:59 (CET)
     text: Abstract Submission
-    pass_due: False
+    pass_due: True
   - date: 2018-12-03
     timezone: 23:59 (CET)
     text: Full Paper Submission
-    pass_due: False
+    pass_due: True
   - date: 2019-01-20
     text: Authors Notification
-    pass_due: False
+    pass_due: True
   - date: 2019-02-03
     text: Camera-ready Version
     pass_due: False
@@ -126,8 +126,13 @@ deadlines:
     text: Workshop Day
     pass_due: False
 news:
+  - date: 2019-01-23
+    text: Accepted papers list is now available
+  - date: 2018-12-12
+    text: Submission deadlines are extended!
   - date: 2018-09-17
     text: Website online
+
 sponsors:
   - name: DATE
     # logo_path: ./assets/images/date.jpg
