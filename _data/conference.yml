@@ -121,11 +121,13 @@ deadlines:
     pass_due: True
   - date: 2019-02-03
     text: Camera-ready Version
-    pass_due: False
+    pass_due: True
   - date: 2019-03-29
     text: Workshop Day
     pass_due: False
 news:
+  - date: 2019-02-12
+    text: Workshop program is now available
   - date: 2019-01-23
     text: Accepted papers list is now available
   - date: 2018-12-12

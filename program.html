@@ -5,70 +5,209 @@ slide_id: 8
 
 <div class="row">
 
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-        You can find the list of accepted papers and interactive presentations below. A program with time slots will be announced later.
+        <!-- You can find the list of accepted papers and interactive presentations below. A program with time slots will be
+        announced later.
 
-<div class="my-text-header"><strong>Accepted Papers</strong></div>
+        <div class="my-text-header"><strong>Accepted Papers</strong></div>
 
-{% for paper in site.data.acceptedPapers %}
-<p class="my-text"><strong>{{paper.title}}</strong>
-    <br>{{ paper.authors }} </p>
-{% endfor %}
+        {% for paper in site.data.acceptedPapers %}
+        <p class="my-text"><strong>{{paper.title}}</strong>
+            <br>{{ paper.authors }} </p>
+        {% endfor %}
 
-<div class="my-text-header"><strong>Interactive Presentations</strong></div>
+        <div class="my-text-header"><strong>Interactive Presentations</strong></div>
 
-{% for paper in site.data.interactivePresentations %}
-<p class="my-text"><strong>{{paper.title}}</strong>
-    <br>{{ paper.authors }} </p>
-{% endfor %}
+        {% for paper in site.data.interactivePresentations %}
+        <p class="my-text"><strong>{{paper.title}}</strong>
+            <br>{{ paper.authors }} </p>
+        {% endfor %} -->
 
-    
-        <!-- {% for day in site.data.schedule %}
+        <!-- <h4 class="schedule-table-heading">Agenda</h4> -->
+        {% for day in site.data.schedule %}
         <div>
-            <h4 class="schedule-table-heading">{{ day.dateReadable }} - Day {{ forloop.index }}</h4>
-            <table class="table table-bordered table-striped table-hover table-responsive table-sm">
-            {% for timeslot in day.timeslots %}
-                    <thead>
-                            <tr>
-                                <th class="bg-info text-center">
-                                        <div>{{timeslot.startTime}}-{{timeslot.endTime}}</div>
-                                </th>
-                                {% if timeslot.type == "service" %}
-                                    <th class="bg-warning text-center">
-                                            <p class="text-muted">{{timeslot.title}}</p>
-                                    </th>
-                                {% else %}
-                                    <th class="bg-primary text-center">
-                                            <h5>{{timeslot.title}}</h5>
-                                            {% if timeslot.speaker %}
-                                            <h5>{{timeslot.speaker}}</h5>
-                                            {% endif %}
-                                            {% if timeslot.chair %}
-                                                <h6>Session chair:{{timeslot.chair}}</h6>
-                                            {% endif %}
-                                    </th>
-                                {% endif %}
-                            </tr>
-                    </thead>
-                    {% if timeslot.events %}
-                    <tbody>
-                        {% for event in timeslot.events %}
-                            <tr>
-                                <td width="20%">
-                                </td>
-                                <td>
-                                    <p><b>{{event.title}}</b></p>
-                                    <p><i>{{event.speakers}}</i></p>
-                                </td>
-                            </tr>
-                        {% endfor %}
-                    </tbody>
-                    {% endif %}
-            {% endfor %}
+
+            <!-- <h4 class="schedule-table-heading">{{ day.dateReadable }} - Day {{ forloop.index }}</h4> -->
+            <table class="table table-bordered table-hover table-responsive table-sm">
+                <thead>
+                    <tr class="head-head">
+                        <th class="bg-light text-center">
+                            <h5>Time</h5>
+                        </th>
+                        <!-- <th class="bg-light text-center">
+                            <h5>Label</h5>
+                        </th> -->
+                        <th class="bg-light text-center">
+                            <h5>Description</h5>
+                        </th>
+                    </tr>
+                </thead>
+                {% for timeslot in day.timeslots %}
+                <thead>
+                    <tr class="head-schedule">
+                        <th class="text-center">
+                            <!-- <div>{{timeslot.startTime}}-{{timeslot.endTime}}</div> -->
+                            <div>{{timeslot.startTime}}</div>
+                        </th>
+                        <!-- <th class="bg-dark text-center">
+                            <div>{{timeslot.label}}</div>
+                        </th> -->
+                        {% if timeslot.type == "service" %}
+                        <th class="bg-light text-center">
+                            <!-- <p class="text-secondary">{{timeslot.title}}</p> -->
+                            <div class="text-gray-light">{{timeslot.title}}</div>
+                        </th>
+                        {% else %}
+
+                        <!-- <th class="bg-light text-center">
+                            <h6>{{timeslot.title}}</h6>
+                        </th> -->
+                        <th class="bg-light text-center">
+                            <div class="text-gray-light">{{timeslot.title}}</div>
+                        </th>
+                        {% endif %}
+                    </tr>
+                </thead>
+                {% if timeslot.events %}
+                <tbody>
+                    {% for event in timeslot.events %}
+                    <tr>
+                        <td width="10%">
+                        </td>
+                        <!-- <td width="10%">
+                        </td> -->
+                        <td width="90%">
+
+                            {% if event.link %}
+                            <h6><b><a href="{{event.link}}">{{event.title}}</b></a>
+                            </h6>
+                            <p>
+                                {{event.speakers}}
+                                <br>
+                                {{event.organisations}}
+                            </p>
+                            {% else %}
+                            <h6><b>{{event.title}}</b></h6>
+                            <p>
+                                {{event.speakers}}
+                                <br>
+                                {{event.organisations}}
+                            </p>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+                {% endif %}
+                {% endfor %}
             </table>
         </div>
-        {% endfor %} -->
+        {% endfor %}
     </div>
+
+</div>
+
+<div>
+<h5 id="keynote1"><b>Keynote 1: Challenges of Automated and Connected Driving </b></h5>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 conference-text" align="center">
+            <img src="/assets/images/prof-dr-thomas-form.jpg" style="width:30%">
+            <p style="width:100%">
+                <br>
+                Thomas Form
+                <br>
+
+                Head of Electronics and Vehicle Research at Volkswagen AG, Germany
+            </p>
+        </div>
+
+    </div>
+    <!-- <b> Speaker: </b> Thomas Form, Head of Electronics and Vehicle Research, Volkswagen AG, Germany -->
+
+    <p>
+        <b>Summary:</b> In recent years, various publications and presentations from a lot of companies have shown the
+        improvements in the sector of automated driving. The vehicle- and mobility-concept SEDRIC is a current example
+        from the Volkswagen AG. However, for a release of these technologies there are several unresolved issues
+        regarding sensor technologies,redundancies as well as verification and validation questions. Regarding sensors,
+        the main objectives are miniaturization and reduction of system costs. Advantages and disadvantages of existing
+        solutions have to be evaluated. In addition to economic aspects ensuring the redundancy of the system is
+        absolute necessary. Is, for example,
+        Artificial Intelligence able to provide an independent second or third function path? Regarding verification
+        and validation concepts, current discussions are focused on which scenarios have to be tested and how, in order
+        to enable regulatory authorities to approve the release of automated driving functions? It is conceivable, that
+        this is an automotive industry wide task that can only be solved in cooperation with all stakeholders.
+    </p>
+
+    <p>
+        <b>Biography:</b> Born in 1959, Thomas Form studied Electrical Engineering at the University of Braunschweig,
+        Germany, joined the Institute for Communication Engineering as research fellow in 1987 and received his Ph.D.
+        in 1992. Up to
+        2002 he worked as a senior engineer in the Centre for Electromagnetic Compatibility of Volkswagen AG. In 2002
+        Dr. Form was appointed as the head of Telephone-/Telematics and Antenna systems development. He became a
+        professor for "Electronic Vehicle Systems" in the Institute of Control Engineering at the Technical University
+        Braunschweig in 2005 and participated with the CAROLO-Team in the finals of the DARPA URBAN Challenge 2007.
+        From 2007 to 2009 he was responsible for concept development, module- and project management in the VW
+        Electric/Electronic development. In 2009 he was appointed as head of the "Electronics and Vehicle Research"
+        within Volkswagen Group research. Major
+        achievements were the presentation of AUDI "Jack" vehicle driving in L3 automatic mode with Journalists from
+        San Francisco to CES 2015 in
+        Las Vegas and the presentation of the autonomous driving pod "SEDRIC" in 2017. Since 2016 he is the coordinator
+        of the German national funded project PEGASUS which wants to answer the question "L3 Highway Chauffeur - how
+        safe is safe
+        enough and how to prove it". He got the Uni-DAS e.V. ADAS Award for significant influence on the development
+        and introduction of driver assistance systems in 2017.
+    </p>
+
+<h5 id="keynote2"><b>Keynote 2: AUTOSAR Adaptive - Challenging the Impossible</b></h5>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 conference-text" align="center">
+            <img src="/assets/images/DSC0086-cut.jpg" style="width:30%">
+            <p style="width:100%">
+                <br>
+                Masaki Gondo
+                <br>
+
+                CTO at eSOL Co. Ltd., JP
+            </p>
+        </div>
+
+    </div>
+
+    <p>
+
+        <b>Summary:</b> The vast researches related to autonomous driving seem steadily progressing - it no longer
+        makes news to just have some research vehicle drive autonomously. However, bringing this technology to the
+        market, with all the
+        associated legal, societal, and ethical responsibilities, with justifiable cost efficiency, is hard at its
+        best, and impossible at its worst. Furthermore, the automotive industry is facing drastic challenges in
+        electric vehicles, connected
+        services, which also heavily impact the whole vehicle architecture.
+        AUTOSAR (AUTomotive Open System ARchitecture) is a worldwide development partnership of automotive interested
+        parties.
+        One of its latest challenges is to develop the software platform specification for the highly automated and
+        autonomous driving, named AUTOSAR Adaptive Platform. This talk gives an overview of the challenges of such a
+        platform, followed by
+        the solution approach of AUTOSAR reflecting the industrial needs, and the overall architecture of AUTOSAR
+        Adaptive. It also introduces a new multi-kernel OS technology the author develops, describing why such OS
+        architecture is
+        essential for coping with the challenge in the long run.
+    </p>
+
+    <p>
+        <b>Biography:</b> Masaki is CTO at eSOL, the company that provides POSIX/AUTOSAR/TRON RTOS, various software
+        development tools, and various engineering services. Graduated from the State University of New York, Masaki
+        has more than
+        20 years of experience in the field of OS architecture and related technologies for use in wide range of
+        embedded system applications including automotive, industrial, and electronic appliances. He has
+        authored/co-authored multiple popular Japanese books/international articles on OS and embedded systems, and
+        given technical talks in conferences worldwide.
+        While serving as a CTO directing the technology strategy and architecture at eSOL, he acts as one of the
+        architects in Task Force Architecture of Adaptive Platform. His interest in recent years spans from
+        next-generation OS/platform architectures, parallel processing, adaptive systems including machine learning, as
+        well as scrum/kanban based development.
+    </p>
 
 </div>
