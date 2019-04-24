@@ -152,6 +152,11 @@
     font-size: 85%;
 }
 
+.new-text {
+    font-size: 100%;
+    color:red;
+}
+
 .card-block {
     padding-top: 3px;
     padding-bottom: 3px;
@@ -205,6 +210,8 @@
 .sponsor {
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
+    align-items: center;
+    width: 80%;
 }
 
 .sponsor img {

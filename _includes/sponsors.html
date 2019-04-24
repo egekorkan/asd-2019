@@ -1,20 +1,12 @@
 <div class="row sponsor">
+
+
+    {% for sponsor in site.data.conference.sponsors %}
     <div class="col">
-        <!-- <h5>Sponsors</h5> -->
-        {% if site.data.conference.sponsors == nil %}
-        <div class="alert alert-warning rounded text-center m-1">
-            <p>TBA</p>
-        </div>
-        {% else %}
-
-        <div class="row">
-            {% for sponsor in site.data.conference.sponsors %}
-            {% if sponsor.logo_path != nil %}
-            <img class="img-fluid mr-auto d-inline-block mb-2 mt-2" src="{{ site.baseurl }}{{ sponsor.logo_path }}" alt="{{ sponsor.name }}">
-            {% endif %}
-            {% endfor %}
-        </div>
-
+        {% if sponsor.logo_path != nil %}
+        <img class="img-fluid mr-auto d-inline-block mb-2 mt-2" src="{{ site.baseurl }}{{ sponsor.logo_path }}" alt="{{ sponsor.name }}">
         {% endif %}
     </div>
+    {% endfor %}
+
 </div>

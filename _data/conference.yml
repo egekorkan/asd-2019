@@ -141,6 +141,10 @@ sponsors:
     small_logo_path: ./assets/images/dateSmall.jpg
   - name: oasics
     logo_path: ./assets/images/OASIcs-147x49_01.jpg
+  - name: ceda
+    logo_path: ./assets/images/IEEE-CEDA-Logo.png
+  - name: TUBr
+    logo_path: ./assets/images/TUBraunschweig.jpg
 social_media:
 #NEEDED?
   facebook_link: https://www.facebook.com/DATE-Conference-249437975212406/
