@@ -33,6 +33,14 @@ slide_id: 1
         {% else %}
         {% endif %}
 
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <h5>Initiative Commitee</h5>
+        <div class="my-text-header"><strong>Chair</strong></div>
+        <p class="my-text"><a href="{{ committee.homepage }}"><strong>Selma Saidi</strong></a>, Hamburg University of Technology,DE </p>
+        <div class="my-text-header"><strong>Co-Chair</strong></div>
+        <p class="my-text"><a href="{{ committee.homepage }}"><strong>Marko Bertogna</strong></a>, University of Modena, IT </p>
         <div class="my-text-header"><strong>Steering Committee</strong></div>
         {% if site.data.conference.steering_committees %}
         {% for committee in site.data.conference.steering_committees %}
@@ -42,15 +50,41 @@ slide_id: 1
         {% else %}
         {% endif %}
 
-<div class="my-text-header"><strong>Technical Program Committee</strong></div>
-{% if site.data.conference.technical_program_committees %}
-{% for committee in site.data.conference.technical_program_committees %}
+        <div class="my-text-header"><strong>Technical Program Committee</strong></div>
+        {% if site.data.conference.technical_program_committees %}
+        {% for committee in site.data.conference.technical_program_committees %}
+        <p class="my-text"><a href="{{ committee.homepage }}"><strong>{{ committee.name }}</strong></a>, {{
+    committee.org }} </p>
+        {% endfor %}
+        {% else %}
+        {% endif %}
+
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+        <h5>Workshop Commitee</h5>
+            <div class="my-text-header"><strong>Chair</strong></div>
+                <p class="my-text"><a href="{{ committee.homepage }}"><strong>Sebastian Steinhorst</strong></a>,
+            Technical University of Munich, DE </p>
+            <div class="my-text-header"><strong>Co-Chair</strong></div>
+            <p class="my-text"><a href="{{ committee.homepage }}"><strong>Jyotirmoy Deshmukh</strong></a>, University of Southern California, USA </p>
+        <div class="my-text-header"><strong>Steering Committee</strong></div>
+        {% if site.data.conference.steering_committees %}
+        {% for committee in site.data.conference.steering_committees %}
         <p class="my-text"><a href="{{ committee.homepage }}"><strong>{{ committee.name }}</strong></a>, {{
             committee.org }} </p>
         {% endfor %}
         {% else %}
         {% endif %}
 
-        <!--####################################-->
+        <div class="my-text-header"><strong>Technical Program Committee</strong></div>
+        {% if site.data.conference.technical_program_committees %}
+        {% for committee in site.data.conference.technical_program_committees %}
+        <p class="my-text"><a href="{{ committee.homepage }}"><strong>{{ committee.name }}</strong></a>, {{
+    committee.org }} </p>
+        {% endfor %}
+        {% else %}
+        {% endif %}
 
     </div>
+</div>
+</div>

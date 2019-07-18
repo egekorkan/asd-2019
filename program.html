@@ -5,8 +5,9 @@ slide_id: 8
 
 <div class="row">
 
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
+        To be Announced
+    </div>
         <!-- You can find the list of accepted papers and interactive presentations below. A program with time slots will be
         announced later.
 
@@ -24,20 +25,16 @@ slide_id: 8
             <br>{{ paper.authors }} </p>
         {% endfor %} -->
 
-        <!-- <h4 class="schedule-table-heading">Agenda</h4> -->
-        {% for day in site.data.schedule %}
+        <!-- {% for day in site.data.schedule %}
         <div>
 
-            <!-- <h4 class="schedule-table-heading">{{ day.dateReadable }} - Day {{ forloop.index }}</h4> -->
             <table class="table table-bordered table-hover table-responsive table-sm">
                 <thead>
                     <tr class="head-head">
                         <th class="bg-light text-center">
                             <h5>Time</h5>
                         </th>
-                        <!-- <th class="bg-light text-center">
-                            <h5>Label</h5>
-                        </th> -->
+
                         <th class="bg-light text-center">
                             <h5>Description</h5>
                         </th>
@@ -47,22 +44,17 @@ slide_id: 8
                 <thead>
                     <tr class="head-schedule">
                         <th class="text-center">
-                            <!-- <div>{{timeslot.startTime}}-{{timeslot.endTime}}</div> -->
+
                             <div>{{timeslot.startTime}}</div>
                         </th>
-                        <!-- <th class="bg-dark text-center">
-                            <div>{{timeslot.label}}</div>
-                        </th> -->
+
                         {% if timeslot.type == "service" %}
                         <th class="bg-light text-center">
-                            <!-- <p class="text-secondary">{{timeslot.title}}</p> -->
+
                             <div class="text-gray-light">{{timeslot.title}}</div>
                         </th>
                         {% else %}
 
-                        <!-- <th class="bg-light text-center">
-                            <h6>{{timeslot.title}}</h6>
-                        </th> -->
                         <th class="bg-light text-center">
                             <div class="text-gray-light">{{timeslot.title}}</div>
                         </th>
@@ -75,8 +67,7 @@ slide_id: 8
                     <tr>
                         <td width="10%">
                         </td>
-                        <!-- <td width="10%">
-                        </td> -->
+
                         <td width="90%">
 
                             {% if event.link %}
@@ -124,7 +115,6 @@ slide_id: 8
         </div>
 
     </div>
-    <!-- <b> Speaker: </b> Thomas Form, Head of Electronics and Vehicle Research, Volkswagen AG, Germany -->
 
     <p>
         <b>Summary:</b> In recent years, various publications and presentations from a lot of companies have shown the
@@ -208,6 +198,6 @@ slide_id: 8
         architects in Task Force Architecture of Adaptive Platform. His interest in recent years spans from
         next-generation OS/platform architectures, parallel processing, adaptive systems including machine learning, as
         well as scrum/kanban based development.
-    </p>
+    </p> -->
 
 </div>

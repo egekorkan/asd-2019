@@ -1,20 +1,20 @@
-full_title1: DATE Workshop on 
+full_title1: DATE Initiative on 
 full_title2: Autonomous Systems Design
-short_title: ASD-2019
+short_title: ASD-2020
 email: ege.korkan@tum.de
 description: > # this means to ignore newlines until "baseurl:"
-  DATE Workshop on Autonomous Systems Design takes place during the last day of the DATE Conference.
+  DATE Initiative on Autonomous Systems Design takes place during the last two days of the DATE Conference.
   It aims to explore recent industrial and academic methods and methodologies in autonomous systems design.
-location: Florence, Italy 2019
-date: 29 March 2019
-logo_path: ./assets/images/logo2019.jpg
+location: Grenoble, France
+date: 12-13 March 2020
+logo_path: ./assets/images/logo.jpg
 
 slideshow:
   - id: 0
     image_path: ./assets/images/slideshow/image0.jpg
-    description: aerial photrography of building
-    photographer_name: Van Williams
-    photographer_link: https://unsplash.com/@vanunsplash
+    description: Vue sur l'agglomération Grenobloise depuis le sommet du Moucherotte (1901 m). Vue sur les massifs de Chartreuse, du Mont Blanc, de Belledonne et des Grandes Rousses.
+    photographer_name: Bertrand93
+    photographer_link: https://en.wikipedia.org/wiki/File:Moucherotte_23_12_11_092_(2)_final.JPG
     active: True 
   - id: 1
     image_path: ./assets/images/slideshow/image1.jpg
@@ -34,12 +34,12 @@ slideshow:
     photographer_name: Luca Bravo
     photographer_link: https://unsplash.com/@lucabravo
     active: True
-  # - id: 4
-  #   image_path: ./assets/images/slideshow/image4.jpg
-  #   description: Dome of Cattedrale di Santa Maria del Fiore (Florence)
-  #   photographer_name: Livioandronico2013
-  #   photographer_link: https://commons.wikimedia.org/wiki/User:Livioandronico2013
-  #   active: True
+  - id: 4
+    image_path: ./assets/images/slideshow/image4.jpg
+    description:  Teleferic of Grenoble
+    photographer_name: Jörg Sancho Pernas
+    photographer_link: https://en.wikipedia.org/wiki/File:Seilbahn-Grenoble.JPG
+    active: True
   # - id: 5
   #   image_path: ./assets/images/slideshow/image5.jpg
   #   description: Shibuya Crossing
@@ -108,37 +108,34 @@ navbar:
     path: /registration.html
     visible: True
 deadlines:
-  - date: 2018-11-26
+  - date: 2019-09-08
     timezone: 23:59 (CET)
     text: Abstract Submission
-    pass_due: True
-  - date: 2018-12-03
+    pass_due: False
+  - date: 2019-09-15
     timezone: 23:59 (CET)
     text: Full Paper Submission
-    pass_due: True
-  - date: 2019-01-20
-    text: Authors Notification
-    pass_due: True
-  - date: 2019-02-03
+    pass_due: False
+  - date: 2019-11-07
+    text: Acceptance Notification
+    pass_due: False
+  - date: 2019-11-28
     text: Camera-ready Version
-    pass_due: True
-  - date: 2019-03-29
+    pass_due: False
+  - date: 2019-03-12
+    text: Initiative Day
+    pass_due: False
+  - date: 2019-03-13
     text: Workshop Day
     pass_due: False
 news:
-  - date: 2019-02-12
-    text: Workshop program is now available
-  - date: 2019-01-23
-    text: Accepted papers list is now available
-  - date: 2018-12-12
-    text: Submission deadlines are extended!
-  - date: 2018-09-17
+  - date: 2019-07-19
     text: Website online
 
 sponsors:
   - name: DATE
     # logo_path: ./assets/images/date.jpg
-    small_logo_path: ./assets/images/dateSmall.jpg
+    small_logo_path: ./assets/images/dateSmall.png
   - name: oasics
     logo_path: ./assets/images/OASIcs-147x49_01.jpg
   - name: ceda
