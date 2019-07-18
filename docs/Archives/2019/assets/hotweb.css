@@ -1,0 +1,245 @@
+.body {
+    font-family: Helvetica, Arial, sans-serif
+}
+
+.carousel {
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+}
+
+.topSpace {
+    font-size: 0.1em;
+}
+
+.jumbotron,
+.carousel-item {
+    height: 300px;
+    /* border-radius: 0; */
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.headerTextDate,
+.headerTextName1,
+.headerTextName2,
+.headerTextLocation {
+    color: white;
+    text-align: center;
+    /* margin-top: 25px; */
+}
+
+.headerTextName1 {
+    font-size: 1em;
+}
+.headerTextName2 {
+    font-size: 1.6em;
+}
+
+.headerTextDate {
+    margin-top: 0.8em;
+    font-size: 1.5em;
+}
+
+.jumbotron {
+    background-color: #01294d;
+    padding: 0px 5px 0px 5px;
+    margin: 0px 0px 5px 0px;
+}
+
+.my-jumbotron{
+        background-color: #01294d;
+        padding: 0px 5px 0px 5px;
+        margin: 0px 0px 5px 0px;
+        height: 300px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* .jumbotron p {
+    font-size: 1.1em;
+}
+.jumbotron h5 {
+    font-size: 1.6em;
+} */
+
+.alert,
+.card,
+.jumbotron,
+.nav,
+.carousel {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.head-schedule{
+    color: white;
+    background-color: #01294d;
+    font-weight: bold;
+}
+
+.head-head {
+    color: white;
+    background-color: #01294d;
+    font-weight: bold;
+}
+
+.my-text-header
+.my-text{
+    color: #01294d;
+}
+
+.my-text {
+    font-size: 80%;
+    margin-left: 30px
+}
+
+.my-text-header{
+    margin-bottom: 10px;
+    margin-left:10px;
+}
+
+.my-text a {
+    color: #1667a5;
+}
+
+.my-card-header-text,
+.my-card-header {
+    background: #01294d;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* margin-top: 0.25rem;
+    /* margin-bottom: 1.25rem; */
+    padding-top: 4px;
+    /* padding-bottom: 4px; */
+    overflow: hidden;
+    /* padding-left: 4px; */
+    
+}
+
+
+.my-card-header-text{
+    margin-left: 20px;
+    margin-bottom: 0.5rem;
+    /* vertical-align: middle; */
+    font-size: 80%;
+}
+
+.carousel-caption {
+    bottom: 1rem;
+    opacity: 0.9;
+    height: 1rem;
+}
+
+.carousel-caption p {
+    font-size: 0.2rem;
+}
+
+.card {
+    margin-top: 0.25rem;
+    margin-bottom: 1.25rem;
+    /* border-radius: 12px; */
+    overflow: hidden;
+}
+
+.card-block,
+.conference-text {
+    font-size: 85%;
+}
+
+.new-text {
+    font-size: 100%;
+    color:red;
+}
+
+.card-block {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: #eee;
+}
+
+.committee {
+    padding: 10px;
+    border-top: 0.05rem solid #e5e5e5;
+}
+
+.committee p {
+    margin-left: 20px;
+}
+
+.card-header {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.card-block p {
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.card-block a {
+    color: inherit;
+}
+
+.nav {
+    /* border-radius: 12px; */
+}
+
+.mynav {
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+
+.list-group-item {
+    font-size: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    overflow: hidden;
+}
+
+.sponsor {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    align-items: center;
+    width: 80%;
+}
+
+.sponsor img {
+    max-height: 10rem;
+    margin-left: 1.05rem;
+}
+
+.sponsor h5 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    padding-top: 1.5rem;
+    border-top: 0.05rem solid #e5e5e5;
+    margin-top: 1.0rem;
+}
+
+.card-header,
+.nav {
+    background: #01294d;
+    font-size: 80%;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #5393c5 !important;
+}
+
+.navbar-inverse .navbar-nav>.active {
+    color: #5393c5 !important;
+}
