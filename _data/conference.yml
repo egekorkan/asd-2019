@@ -123,12 +123,14 @@ deadlines:
     text: Camera-ready Version
     pass_due: False
   - date: 2019-03-12
-    text: Initiative Day
+    text: Initiative Day 1
     pass_due: False
   - date: 2019-03-13
-    text: Workshop Day
+    text: Initiative Day 2
     pass_due: False
 news:
+  - date: 2019-07-23
+    text: Call for papers is online
   - date: 2019-07-19
     text: Website online
 
@@ -136,12 +138,12 @@ sponsors:
   - name: DATE
     # logo_path: ./assets/images/date.jpg
     small_logo_path: ./assets/images/dateSmall.png
-  - name: oasics
-    logo_path: ./assets/images/OASIcs-147x49_01.jpg
-  - name: ceda
-    logo_path: ./assets/images/IEEE-CEDA-Logo.png
-  - name: TUBr
-    logo_path: ./assets/images/TUBraunschweig.jpg
+  # - name: oasics
+  #   logo_path: ./assets/images/OASIcs-147x49_01.jpg
+  # - name: ceda
+  #   logo_path: ./assets/images/IEEE-CEDA-Logo.png
+  # - name: TUBr
+  #   logo_path: ./assets/images/TUBraunschweig.jpg
 social_media:
 #NEEDED?
   facebook_link: https://www.facebook.com/DATE-Conference-249437975212406/
