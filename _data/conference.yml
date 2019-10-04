@@ -167,19 +167,17 @@ webmaster:
   - name: Ege Korkan  
     org: Technical University of Munich, Germany
     homepage: https://www.esi.ei.tum.de/en/staff/korkan/
-day1chair:
+day1chairs:
   - name: Selma Saidi
     org: Hamburg University of Technology, Germany
     homepage: https://www.tuhh.de/es/esd/people/selma-saidi.html
-day1cochair:
   - name: Marko Bertogna
     org: University of Modena, Italy
     homepage: http://algo.ing.unimo.it/people/marko/
-day2chair:
+day2chairs:
   - name: Sebastian Steinhorst
     org: Technical University of Munich, Germany
     homepage: https://www.esi.ei.tum.de/en/members/steinhorst/
-day2cochair:
   - name: Jyotirmoy Vinay Deshmukh
     org: University of Southern California, USA
     homepage: http://www-bcf.usc.edu/~jdeshmuk/
