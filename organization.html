@@ -13,6 +13,17 @@ slide_id: 1
             organizer.org }} </p>
         {% endfor %}
         {% else %}
+        <p class="my-text">To be announced</p>
+        {% endif %}
+
+        <div class="my-text-header"><strong>Industrial Advisory Board</strong></div>
+        {% if site.data.conference.industry_board %}
+        {% for member in site.data.conference.industry_board %}
+        <p class="my-text"><a href="{{ member.homepage }}"><strong>{{ member.name }}</strong></a>, {{
+                    member.org }} </p>
+        {% endfor %}
+        {% else %}
+        <p class="my-text">To be announced</p>
         {% endif %}
 
         <div class="my-text-header"><strong>Publicity Chair</strong></div>
@@ -22,6 +33,7 @@ slide_id: 1
             publicity_chair.org }} </p>
         {% endfor %}
         {% else %}
+        <p class="my-text">To be announced</p>
         {% endif %}
 
         <div class="my-text-header"><strong>Webmaster</strong></div>
@@ -31,16 +43,35 @@ slide_id: 1
             webmaster.org }} </p>
         {% endfor %}
         {% else %}
+        <p class="my-text">To be announced</p>
         {% endif %}
 
     </div>
 
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <h5>Thursday Initiative Commitee</h5>
+        <h5>Thursday Initiative Committee</h5>
+        
         <div class="my-text-header"><strong>Chair</strong></div>
-        <p class="my-text"><a href="{{ committee.homepage }}"><strong>Selma Saidi</strong></a>, Hamburg University of Technology,DE </p>
+        {% if site.data.conference.day1chair %}
+        {% for chair in site.data.conference.day1chair %}
+        <p class="my-text"><a
+            href="{{ chair.homepage }}"><strong>{{ chair.name }}</strong></a>,
+            {{chair.org }} </p>
+        {% endfor %}
+        {% else %}
+        <p class="my-text">To be announced</p>
+        {% endif %}
+
         <div class="my-text-header"><strong>Co-Chair</strong></div>
-        <p class="my-text"><a href="{{ committee.homepage }}"><strong>Marko Bertogna</strong></a>, University of Modena, IT </p>
+        {% if site.data.conference.day1cochair %}
+        {% for chair in site.data.conference.day1cochair %}
+        <p class="my-text"><a href="{{ chair.homepage }}"><strong>{{ chair.name }}</strong></a>,
+            {{chair.org }} </p>
+        {% endfor %}
+        {% else %}
+        <p class="my-text">To be announced</p>
+        {% endif %}
+
         <div class="my-text-header"><strong>Steering Committee</strong></div>
          <p class="my-text">To be announced</p>
         <!-- {% if site.data.conference.steering_committees %}
@@ -52,42 +83,60 @@ slide_id: 1
         {% endif %} -->
 
         <div class="my-text-header"><strong>Technical Program Committee</strong></div>
-                 <p class="my-text">To be announced</p>
-        <!-- {% if site.data.conference.technical_program_committees %}
-        {% for committee in site.data.conference.technical_program_committees %}
-        <p class="my-text"><a href="{{ committee.homepage }}"><strong>{{ committee.name }}</strong></a>, {{
-    committee.org }} </p>
+        <!-- <p class="my-text">To be announced</p> -->
+        {% if site.data.conference.day1tpc %}
+        {% for member in site.data.conference.day1tpc %}
+        <p class="my-text"><a href="{{ member.homepage }}"><strong>{{ member.name }}</strong></a>, {{
+    member.org }} </p>
         {% endfor %}
         {% else %}
-        {% endif %} -->
+        {% endif %}
 
     </div>
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <h5>Friday Initiative Commitee</h5>
-            <div class="my-text-header"><strong>Chair</strong></div>
-                <p class="my-text"><a href="{{ committee.homepage }}"><strong>Sebastian Steinhorst</strong></a>,
-            Technical University of Munich, DE </p>
-            <div class="my-text-header"><strong>Co-Chair</strong></div>
-            <p class="my-text"><a href="{{ committee.homepage }}"><strong>Jyotirmoy Deshmukh</strong></a>, University of Southern California, USA </p>
-        <div class="my-text-header"><strong>Steering Committee</strong></div>
-                 <p class="my-text">To be announced</p>
-        <!-- {% if site.data.conference.steering_committees %}
-        {% for committee in site.data.conference.steering_committees %}
-        <p class="my-text"><a href="{{ committee.homepage }}"><strong>{{ committee.name }}</strong></a>, {{
-            committee.org }} </p>
+        <h5>Friday Initiative Committee</h5>
+
+        <div class="my-text-header"><strong>Chair</strong></div>
+        {% if site.data.conference.day2chair %}
+        {% for chair in site.data.conference.day2chair %}
+        <p class="my-text"><a href="{{ chair.homepage }}"><strong>{{ chair.name }}</strong></a>,
+            {{chair.org }} </p>
         {% endfor %}
         {% else %}
-        {% endif %} -->
+        <p class="my-text">To be announced</p>
+        {% endif %}
+
+        <div class="my-text-header"><strong>Co-Chair</strong></div>
+        {% if site.data.conference.day2cochair %}
+        {% for chair in site.data.conference.day2cochair %}
+        <p class="my-text"><a href="{{ chair.homepage }}"><strong>{{ chair.name }}</strong></a>,
+            {{chair.org }} </p>
+        {% endfor %}
+        {% else %}
+        <p class="my-text">To be announced</p>
+        {% endif %}
+
+        <div class="my-text-header"><strong>Steering Committee</strong></div>
+                 
+        {% if site.data.conference.day2sc %}
+        {% for member in site.data.conference.day2sc %}
+        <p class="my-text"><a href="{{ member.homepage }}"><strong>{{ member.name }}</strong></a>, {{
+    member.org }} </p>
+        {% endfor %}
+        {% else %}
+        <p class="my-text">To be announced</p>
+        {% endif %}
 
         <div class="my-text-header"><strong>Technical Program Committee</strong></div>
-         <p class="my-text">To be announced</p>
-        <!-- {% if site.data.conference.technical_program_committees %}
-        {% for committee in site.data.conference.technical_program_committees %}
-        <p class="my-text"><a href="{{ committee.homepage }}"><strong>{{ committee.name }}</strong></a>, {{
-    committee.org }} </p>
+
+        {% if site.data.conference.day2tpc %}
+        {% for member in site.data.conference.day2tpc %}
+        <p class="my-text"><a href="{{ member.homepage }}"><strong>{{ member.name }}</strong></a>, {{
+    member.org }} </p>
         {% endfor %}
         {% else %}
-        {% endif %} -->
+        <p class="my-text">To be announced</p>
+        {% endif %}
 
     </div>
 </div>
