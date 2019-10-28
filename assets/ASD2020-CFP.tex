@@ -1,0 +1,124 @@
+\documentclass[a4paper,10pt] {article}
+
+\usepackage{amssymb,amsmath}
+\usepackage{soul}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{program}
+\usepackage{color}
+\usepackage{geometry}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{enumitem}
+\usepackage{comment}
+
+ \geometry{left=3.5cm, right=3.5cm, bottom=2cm, top=1cm}
+
+\graphicspath{{./images/}}
+\pagenumbering{gobble}
+%\baselinestretch{0.9}
+
+\begin{document}
+
+\begin{figure*}
+\hspace{-0.5cm}
+  \includegraphics[scale=0.5]{images/header3.png}
+\end{figure*}
+
+
+\begin{center}
+
+%\hspace{1.5cm}
+\Large{\textbf{DATE Workshop on}} \\ \LARGE{\textbf{Autonomous Systems Design \\ASD 2020}}   \\ \vspace{+0.3 cm}
+% \Large{\textbf{NPCar 2018}} \\ \vspace{+0.3 cm} 
+\large{{\textbf{13 March 2020, Grenoble, France }}} \\ \vspace{+0.2 cm}\small{{\url{http://asd2020.userweb.mwn.de/}}}
+\end{center}
+
+%
+% *************************************************************************************** \\
+
+\subsubsection*{CALL FOR PAPERS}
+
+%The number of intelligent embedded devices continues to multiply rapidly therefore leading to the emergence of autonomous systems in order to provide highly efficient, safe and secure functions. Autonomous driving constitutes today one of the best examples of this trend.
+%However, with the increase of the level of automation, systems design becomes very challenging  in order to accommodate the high complexity, connectivity and heterogeneity of the system while complying with rigorous constraints in terms of safety, real-time capabilities and security. 
+
+ASD2020 is the 2nd international workshop on Autonomous Systems Design. The goal of the workshop is to explore recent industrial and academic methods and methodologies in autonomous systems design. We invite interested contributors to submit papers to the workshop related, but not limited to, the following areas: 
+\begin{itemize} [noitemsep]
+\item Design for autonomous systems including processes, modeling, optimization, verification, validation, and test.
+\item Embedded and cyber-physical systems platforms that implement and execute the autonomous system functions including their architectures, hardware, software, and communication.
+\item Dependable systems design for autonomous systems including, but not limited to, functional safety concepts, fail-operational systems design, functional safety for applications with machine learning, safe and secure changes and updates, autonomous systems security. 
+% \item
+% Techniques based on AI and robotics for autonomy.
+\end{itemize}
+%This includes several areas:
+%1) embedded and cyber-physical systems platforms that implement and
+%execute the autonomous system functions including their architectures,
+%hardware, software and communication, 
+%2) the design for autonomous systems 
+%including processes, modeling, optimization, verification, validation, and test
+%3) all aspects of dependable systems design for autonomous systems including,
+%but not limited to, functional safety concepts, fail-operational systems design,
+%functional safety for applications with machine learning, safe and secure changes
+%and updates, autonomous systems security.
+To emphasize the workshop character, position papers and problem statements elaborating challenges in the design practices are also welcome. We want to specifically introduce an "Industrial Challenges" session and also ask for problem demos from industry to be presented in ASD.
+"Demo Papers" as well as "Industrial Practice Papers" of 2-4 pages are hence welcome.
+
+%
+\vspace{-0.2cm}
+\paragraph{Publishing Format}
+Accepted papers will be published in collaboration with  Dagstuhl's OpenAccess Series in Informatics %\href{https://www.dagstuhl.de/en/publications/oasics/}{OpenAccess Series in Informatics} 
+(OASIcs), free and open access online proceedings. The papers will be referenced in major databases such as DBLP. %\href{http://dblp.dagstuhl.de/db/series/oasics/}{DBLP}. 
+Submitted papers should not exceed 15 pages and should follow the OASIcs formatting instructions. %\href{https://www.dagstuhl.de/en/publications/oasics/instructions-for-authors/}{OASIcs formatting instructions}.    
+\vspace{-0.2cm}
+\paragraph{Abstract Submission}: 2 December 2019
+\vspace{-0.5 cm}
+\paragraph{Full Paper Submission}: 9 December 2019
+\vspace{-0.5 cm}
+\paragraph{Acceptance Notification}: 20 January 2020
+\vspace{-0.5 cm}
+\paragraph{Workshop Day}: 13 March 2020
+\vspace{-0.5 cm}
+\paragraph{Submission Instructions}: \href{http://asd.userweb.mwn.de/workshop.html}{http://asd.userweb.mwn.de/workshop.html} 
+%\vspace{-0.25 cm}
+\subsection*{Organizers}
+%\paragraph*{Organizers} 
+\begin{itemize}[noitemsep]
+\item \textbf{Sebastian Steinhorst}, Technical University of Munich, Germany %, \href{mailto:ernst@ida.ing.tu-bs.de}{ernst@ida.ing.tu-bs.de}
+\item \textbf{Jyotirmoy Deshmukh}, University of Southern California, USA  \end{itemize}
+
+\subsection*{Steering Committee}
+\begin{itemize}[noitemsep]
+\item \textbf{Rolf Ernst}, Technical University of Braunschweig, Germany
+\item \textbf{Selma Saidi}, Hamburg University of Technology, Germany 
+\item \textbf{Dirk Ziegenbein}, Robert Bosch GmbH, Germany
+
+\end{itemize}
+\vspace{-0.3 cm}
+\begin{comment}
+\subsection*{Program Committee}
+%\paragraph*{Program Committee\\}
+\begin{center}
+{\small{
+\hspace{-1cm}\textbf{Assad Al Alam}  ~~~~~~~~~~~~~~ \textbf{Mohammad Al Faruque} ~~~~~~~~~~~ \textbf{Marko Bertogna} \\
+\hspace{-0.5cm}Scania CV AB, SE  ~~~~~~~~~~ Univ of California, Irvine, USA ~~~~~~~~~ Univ of Modena, IT\\
+%\\
+\textbf{Bart Besselink}  ~~~~~~~~~~~~~ \textbf{Samarjit Chakraborty} ~~~~~~~~~~ \textbf{Jyotirmoy V. Deshmukh} \\
+Univ of Groningen, NL  ~~~~~~~~~~~~~~~~~ TU Munich, GE~~~~~~~~~~~~~~~~~~  Univ of Southern California, USA\\
+%\\
+\hspace{-1cm}\textbf{Marco Di Natale}  ~~~~~~~~~~~~~ \textbf{Sebastian Fischmeister} ~~~~~~~~~~~~~~~ \textbf{Arne Hamann} \\
+SSSUP of Pisa, IT  ~~~~~~~~~~~~~~~~ Univ of Waterloo, CA~~~~~~~~~~~~~~~~~  Robert Bosch GmbH, GE\\
+%\\
+\hspace{-1cm}\textbf{Stefan Kowalewski}  ~~~~~~~~~~~~~ \textbf{Martina Maggio} ~~~~
+~~~~~~~~~~~~~~~~\textbf{Rahul Mangharam} \\
+\hspace{-0.5cm}RWTH Aachen Univ, GE  ~~~~~~~~~ Lund University, SE~~~~~~~~~~~~~~~~~  Univ of Pennsylvania, USA\\
+%\\
+\hspace{-1cm}\textbf{Markus Maurer}  ~~~~~~~~~~~~~~~~~~~~ \textbf{Karl Meinke} ~~~~
+~~~~~~~~~~~~~~~~~~~~~~ \textbf{Gabor Orosz} \\
+\hspace{-0.5cm}TU Braunschweig, GE  ~~~~~~~~KTH Royal Institute of Tech, SE~~~~~~~~~  Univ of Michigan, USA\\
+%\\
+\hspace{-1cm}\textbf{Dongwha Shin}  ~~~~~~~~~~~~~~~~~~~~ \textbf{Aviral Shrivastava} ~~~~~~
+~~~~~~~~~~~~~~~~~ \textbf{Lin Xue} \\
+\hspace{-0.5cm}Yeungnam Univ, Korea  ~~~~~~~~~~ Arizona State Univ, USA~~~~~~~~~~~~~  Northeastern Univ, USA \\
+}}
+\end{center}
+\end{comment}
+\end{document}

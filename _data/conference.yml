@@ -1,4 +1,4 @@
-full_title1: DATE Initiative on 
+full_title1: DATE Workshop and Initiative on 
 full_title2: Autonomous Systems Design
 short_title: ASD-2020
 email: ege.korkan@tum.de
@@ -107,15 +107,15 @@ navbar:
     label: Registration
     path: /registration.html
     visible: True
-deadlines:
+deadlines_initiative_day:
   - date: 2019-09-22
     timezone: 23:59 (CET)
     text: Abstract Submission
-    pass_due: False
+    pass_due: True
   - date: 2019-09-29
     timezone: 23:59 (CET)
     text: Full Paper Submission
-    pass_due: False
+    pass_due: True
   - date: 2019-11-07
     text: Acceptance Notification
     pass_due: False
@@ -123,14 +123,26 @@ deadlines:
     text: Camera-ready Version
     pass_due: False
   - date: 2019-03-12
-    text: Initiative Day 1
+    text: Initiative Day
     pass_due: False
-  - date: 2019-03-13
-    text: Initiative Day 2
+deadlines_workshop_day:
+  - date: 2019-12-02
+    timezone: 23:59 (CET)
+    text: Abstract Submission
+    pass_due: False
+  - date: 2019-12-09
+    timezone: 23:59 (CET)
+    text: Full Paper Submission
+    pass_due: False
+  - date: 2020-01-20
+    text: Acceptance Notification
+    pass_due: False
+  - date: 2020-03-13
+    text: Workshop Day
     pass_due: False
 news:
   - date: 2019-07-23
-    text: Call for papers is online
+    text: Call for papers for the initiative day is online
   - date: 2019-07-19
     text: Website online
 
