@@ -6,7 +6,7 @@ slide_id: 1
 <div class="row">
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-        <div class="my-text-header"><strong>Workshop Organizers</strong>
+        <div class="my-text-header"><strong>Initiative Organizers</strong>
             {% if site.data.conference.organizers %}
             {% for organizer in site.data.conference.organizers %}
             <p class="my-text"><a href="{{ organizer.homepage }}"><strong>{{ organizer.name }}</strong></a>, {{
@@ -16,7 +16,7 @@ slide_id: 1
             <p class="my-text">To be announced</p>
             {% endif %}
         </div>
-        <div class="my-text-header"><strong>Industrial Advisory Board</strong>
+        <!-- <div class="my-text-header"><strong>Industrial Advisory Board</strong>
             {% if site.data.conference.industry_board %}
             {% for member in site.data.conference.industry_board %}
             <p class="my-text"><a href="{{ member.homepage }}"><strong>{{ member.name }}</strong></a>, {{
@@ -25,7 +25,7 @@ slide_id: 1
             {% else %}
             <p class="my-text">To be announced</p>
             {% endif %}
-        </div>      
+        </div>       -->
         <div class="my-text-header"><strong>Publicity Chair</strong>
             {% if site.data.conference.publicity_chair %}
             {% for publicity_chair in site.data.conference.publicity_chair %}
@@ -49,7 +49,7 @@ slide_id: 1
     </div>
 
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" >
-        <h5><b>Thursday Initiative Committee</b></h5>
+        <h5><b>Thursday Special Day Committee</b></h5>
         <div class="my-text-header"><strong>Chairs</strong>
             {% if site.data.conference.day1chairs %}
             {% for chair in site.data.conference.day1chairs %}
@@ -94,7 +94,7 @@ slide_id: 1
         </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <h5><b>Friday Workshop Committee</b></h5>
+        <h5><b>Friday Workshop Day Committee</b></h5>
 
         <div class="my-text-header"><strong>Chairs</strong>
             {% if site.data.conference.day2chairs %}

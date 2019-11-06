@@ -1,4 +1,4 @@
-full_title1: DATE Workshop and Initiative on 
+full_title1: DATE Initiative on 
 full_title2: Autonomous Systems Design
 short_title: ASD-2020
 email: ege.korkan@tum.de
@@ -123,7 +123,7 @@ deadlines_initiative_day:
     text: Camera-ready Version
     pass_due: False
   - date: 2019-03-12
-    text: Initiative Day
+    text: Special Day
     pass_due: False
 deadlines_workshop_day:
   - date: 2019-12-02
