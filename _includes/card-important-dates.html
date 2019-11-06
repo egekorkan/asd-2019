@@ -3,7 +3,36 @@
         <i class="fa fa-calendar-o mr-3" aria-hidden="true"></i><strong>Important Dates</strong>
     </div>
     <div class="card-block bg-faded">
-        <strong>Special Day</strong>
+        <strong style="padding-left: 0.5em;">Workshop Day</strong>
+        <ul class="list-group list-group-flush">
+            {% if site.data.conference.deadlines_workshop_day %}
+            {% for deadline in site.data.conference.deadlines_workshop_day %}
+
+            <li class="list-group-item bg-faded text-muted">
+                {% if deadline.pass_due %}
+                <del>
+                    {% endif %}
+                    <p><strong>{{ deadline.text }}:</strong>
+                        <br>
+                        {% if deadline.timezone %}
+                        {{ deadline.date | date: "%B %e, %Y." }}
+                        <br>
+                        {{ deadline.timezone }}
+                        {% else %}
+                        {{ deadline.date | date: "%B %e, %Y." }}
+                        {% endif %}</p>
+                    {% if deadline.pass_due %}
+                </del>
+                {% endif %}
+            </li>
+            {% endfor %}
+            {% else %}
+            <li class="list-group-item bg-faded text-muted">TBA</li>
+            {% endif %}
+        </ul>
+    </div>
+    <div class="card-block bg-faded">
+        <strong style="padding-left: 0.5em;">Special Day</strong>
         <ul class="list-group list-group-flush">
             {% if site.data.conference.deadlines_initiative_day %}
                 {% for deadline in site.data.conference.deadlines_initiative_day %}
@@ -28,35 +57,6 @@
                 {% endfor %}
             {% else %}
                 <li class="list-group-item bg-faded text-muted">TBA</li>
-            {% endif %}
-        </ul>
-    </div>
-    <div class="card-block bg-faded">
-        <strong>Workshop Day</strong>
-        <ul class="list-group list-group-flush">
-            {% if site.data.conference.deadlines_initiative_day %}
-            {% for deadline in site.data.conference.deadlines_initiative_day %}
-
-            <li class="list-group-item bg-faded text-muted">
-                {% if deadline.pass_due %}
-                <del>
-                    {% endif %}
-                    <p><strong>{{ deadline.text }}:</strong>
-                        <br>
-                        {% if deadline.timezone %}
-                        {{ deadline.date | date: "%B %e, %Y." }}
-                        <br>
-                        {{ deadline.timezone }}
-                        {% else %}
-                        {{ deadline.date | date: "%B %e, %Y." }}
-                        {% endif %}</p>
-                    {% if deadline.pass_due %}
-                </del>
-                {% endif %}
-            </li>
-            {% endfor %}
-            {% else %}
-            <li class="list-group-item bg-faded text-muted">TBA</li>
             {% endif %}
         </ul>
     </div>

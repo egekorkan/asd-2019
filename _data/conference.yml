@@ -95,15 +95,22 @@ navbar:
     path: /submission.html
     visible: True
   - id: 5
+    label: Workshop Day
+    path: /workshop.html
+    visible: True
+  - id: 6
+    label: Special Day
+    path: /special.html
+    visible: True
+  - id: 7
     label: Program
     path: /program.html
     visible: True
-    unclickable: True
-  - id: 6
+  - id: 8
     label: Venue
     path: /venue.html
     visible: True
-  - id: 7
+  - id: 9
     label: Registration
     path: /registration.html
     visible: True
@@ -122,9 +129,6 @@ deadlines_initiative_day:
   - date: 2019-11-28
     text: Camera-ready Version
     pass_due: False
-  - date: 2019-03-12
-    text: Special Day
-    pass_due: False
 deadlines_workshop_day:
   - date: 2019-12-02
     timezone: 23:59 (CET)
@@ -136,9 +140,6 @@ deadlines_workshop_day:
     pass_due: False
   - date: 2020-01-20
     text: Acceptance Notification
-    pass_due: False
-  - date: 2020-03-13
-    text: Workshop Day
     pass_due: False
 news:
   - date: 2019-07-23

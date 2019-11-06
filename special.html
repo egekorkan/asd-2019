@@ -1,0 +1,83 @@
+---
+layout: page
+slide_id: 3
+---
+
+
+<div class="row">
+
+    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 text-justify conference-text">
+
+        <p>The special day on Thursday consists of regular sessions discussing novel technical contributions, hot topics and emerging challenges in the field of autonomous systems.
+        Submitted papers will undergo a peer review process and accepted papers will appear in the DATE conference proceedings.
+        </p>
+
+        <p class="lead">Call For Papers (<a href="assets/ASD_DATE2020_CFP.pdf">PDF</a>)</p>
+
+        <p>ASD 2020 Special Day welcomes submissions in all areas of autonomous systems design, including but not limited to:</p>
+
+        <ul>
+            <li>embedded and cyber-physical systems platforms that implement and execute the autonomous system functions
+                including aspects related to their architectures, hardware, software and communication,</li>
+            <li>the design of autonomous systems including processes, modeling, optimization, verification, validation,
+                and test,</li>
+            <li>all aspects of dependability in autonomous systems design including, but not limited to, functional
+                safety concepts, fail-operational systems design, functional safety for applications with machine
+                learning, safe and secure adaptions and updates, autonomous systems security,</li>
+            <li>case studies of autonomous systems design using innovative architectures, methods and tools.</li>
+        </ul>
+
+        <!-- <p>To emphasize the workshop character, position papers and problem statements elaborating challenges in the design practice are welcome.
+            All accepted papers will be published in Dagstuhl’s OpenAccess Series in Informatics (<a href="https://www.dagstuhl.de/en/publications/oasics">OASIcs</a>)
+            series, free and open
+            access online proceedings.</p> -->
+
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+        {% include card-important-dates.html %}
+
+
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-justify conference-text">
+    <p class="lead">Submission Instructions</p>
+
+    <p>All manuscripts should be submitted in pdf format not exceeding 6 pages, formatted following <a
+            href="https://www.date-conference.com/submission-instructions">the DATE proceedings submission
+            instructions</a>. </p>
+
+    <p class="text-left">
+        <!-- <i class="fa fa-external-link fa-fw" aria-hidden="true"></i> -->
+        <strong> Submission Site </strong> : <a href="https://www.softconf.com/date20/ASD_special_day/">
+            https://www.softconf.com/date20/ASD_special_day/
+        </a>
+    </p>
+    <p>&nbsp;</p>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-justify conference-text">
+        <p class="lead">Committee</p>
+        <p><strong>Chairs</strong>
+            {% if site.data.conference.day1chairs %}
+            {% for chair in site.data.conference.day1chairs %}
+            <p style="margin-left: 1em;"><a href="{{ chair.homepage }}"><strong>{{ chair.name }}</strong></a>,
+                {{chair.org }} </p>
+            {% endfor %}
+            {% else %}
+            <p style="margin-left: 1em;">To be announced</p>
+            {% endif %}
+            </p>
+
+        <p><strong>Technical Program Committee</strong>
+            {% if site.data.conference.day1tpc %}
+            {% for member in site.data.conference.day1tpc %}
+            <p style="margin-left: 1em;"><a href="{{ member.homepage }}"><strong>{{ member.name }}</strong></a>,
+                {{member.org }} </p>
+            {% endfor %}
+            {% else %}
+            <p style="margin-left: 1em;">To be announced</p>
+            {% endif %}
+            </p>
+    </div>
+</div>
+<!-- {% include sponsors.html %} -->

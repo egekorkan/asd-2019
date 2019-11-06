@@ -13,7 +13,7 @@
         crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/hotweb.css ">
   <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css">
-  <link rel="canonical" href="http://localhost:4000/submission.html">
+  <link rel="canonical" href="http://localhost:4000/special.html">
 <link rel="shortcut icon" type="image/png" href="favicon.png" />
   
   <script>
@@ -91,7 +91,8 @@
                             </div>
                             
                             
-                            <div class="carousel-item">
+                            <!-- and slide.active == True -->
+                            <div class="carousel-item active">
                             
                                 <!--<img class="img-fluid" src="./assets/images/slideshow/image3.jpg" alt="Driver with Apple Watch">-->
                                 <img class="img-fluid" src="./assets/images/slideshow/image3.jpg" alt="Driver with Apple Watch">
@@ -115,8 +116,7 @@
                             </div>
                             
                             
-                            <!-- and slide.active == True -->
-                            <div class="carousel-item active">
+                            <div class="carousel-item">
                             
                                 <!--<img class="img-fluid" src="./assets/images/slideshow/image7.jpg" alt="Which Way?">-->
                                 <img class="img-fluid" src="./assets/images/slideshow/image7.jpg" alt="Which Way?">
@@ -214,12 +214,11 @@
                             
                                 
                                     
-                                        <li class="nav-item active">
+                                        <li class="nav-item">
                                             <a class="nav-link m-1" href="./submission.html">
                                                 <strong>Submission</strong>
-                                                <span class="sr-only">(current)</span>
                                             </a>
-                                        </li>
+                                        </li>   
                                     
                                 
                             
@@ -235,11 +234,12 @@
                             
                                 
                                     
-                                        <li class="nav-item">
+                                        <li class="nav-item active">
                                             <a class="nav-link m-1" href="./special.html">
                                                 <strong>Special Day</strong>
+                                                <span class="sr-only">(current)</span>
                                             </a>
-                                        </li>   
+                                        </li>
                                     
                                 
                             
@@ -297,45 +297,35 @@
         <div class="row mt-xs-0 mt-sm-0 mt-md-1 mt-lg-2 mt-xl-2 mb-xs-2 mb-sm-2">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
         <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 text-justify conference-text">
 
-        <p class="lead">Workshop Day - Submission Instructions</p>
+    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 text-justify conference-text">
 
-        <p>
-            <b>Publishing Format </b> All accepted papers will be published in Dagstuhl’s OpenAccess Series in
-            Informatics
-            (<a href="https://www.dagstuhl.de/en/publications/oasics">OASIcs</a>), free and open access online
-            proceedings. The papers will be referenced in major databases such as DBLP. Submitted papers should not
-            exceed 15 pages and should follow the OASIcs formatting instructions.
+        <p>The special day on Thursday consists of regular sessions discussing novel technical contributions, hot topics and emerging challenges in the field of autonomous systems.
+        Submitted papers will undergo a peer review process and accepted papers will appear in the DATE conference proceedings.
         </p>
 
-        <p class="text-left">
-            <!-- <i class="fa fa-external-link fa-fw" aria-hidden="true"></i> -->
-            <strong> Submission Site </strong> : <a href="https://www.softconf.com/date20/ASD20/">
-                https://www.softconf.com/date20/ASD20/
-            </a>
-        </p>
+        <p class="lead">Call For Papers (<a href="assets/ASD_DATE2020_CFP.pdf">PDF</a>)</p>
 
-        <p>&nbsp;</p>
+        <p>ASD 2020 Special Day welcomes submissions in all areas of autonomous systems design, including but not limited to:</p>
 
+        <ul>
+            <li>embedded and cyber-physical systems platforms that implement and execute the autonomous system functions
+                including aspects related to their architectures, hardware, software and communication,</li>
+            <li>the design of autonomous systems including processes, modeling, optimization, verification, validation,
+                and test,</li>
+            <li>all aspects of dependability in autonomous systems design including, but not limited to, functional
+                safety concepts, fail-operational systems design, functional safety for applications with machine
+                learning, safe and secure adaptions and updates, autonomous systems security,</li>
+            <li>case studies of autonomous systems design using innovative architectures, methods and tools.</li>
+        </ul>
 
-<p class="lead">Special Day - Submission Instructions</p>
+        <!-- <p>To emphasize the workshop character, position papers and problem statements elaborating challenges in the design practice are welcome.
+            All accepted papers will be published in Dagstuhl’s OpenAccess Series in Informatics (<a href="https://www.dagstuhl.de/en/publications/oasics">OASIcs</a>)
+            series, free and open
+            access online proceedings.</p> -->
 
-<p>All manuscripts should be submitted in pdf format not exceeding 6 pages, formatted following <a href="https://www.date-conference.com/submission-instructions">the DATE proceedings submission instructions</a>. </p>
-
-    <p class="text-left">
-        <!-- <i class="fa fa-external-link fa-fw" aria-hidden="true"></i> -->
-        <strong> Submission Site </strong> : <a href="https://www.softconf.com/date20/ASD_special_day/">
-        https://www.softconf.com/date20/ASD_special_day/
-        </a>
-    </p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-        <!--######### important dates ##########-->
+    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
         <div class="my-card-header">
     <div class="my-card-header-text text-white">
         <i class="fa fa-calendar-o mr-3" aria-hidden="true"></i><strong>Important Dates</strong>
@@ -450,11 +440,105 @@
         </ul>
     </div>
 </div>
-        <!--####################################-->
+
+
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-justify conference-text">
+    <p class="lead">Submission Instructions</p>
+
+    <p>All manuscripts should be submitted in pdf format not exceeding 6 pages, formatted following <a
+            href="https://www.date-conference.com/submission-instructions">the DATE proceedings submission
+            instructions</a>. </p>
+
+    <p class="text-left">
+        <!-- <i class="fa fa-external-link fa-fw" aria-hidden="true"></i> -->
+        <strong> Submission Site </strong> : <a href="https://www.softconf.com/date20/ASD_special_day/">
+            https://www.softconf.com/date20/ASD_special_day/
+        </a>
+    </p>
+    <p>&nbsp;</p>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-justify conference-text">
+        <p class="lead">Committee</p>
+        <p><strong>Chairs</strong>
+            
+            
+            <p style="margin-left: 1em;"><a href="https://www.tuhh.de/es/esd/people/selma-saidi.html"><strong>Selma Saidi</strong></a>,
+                Hamburg University of Technology, Germany </p>
+            
+            <p style="margin-left: 1em;"><a href="http://algo.ing.unimo.it/people/marko/"><strong>Marko Bertogna</strong></a>,
+                University of Modena, Italy </p>
+            
+            
+            </p>
+
+        <p><strong>Technical Program Committee</strong>
+            
+            
+            <p style="margin-left: 1em;"><a href="https://www.linkedin.com/in/arne-hamann-9045181/"><strong>Arne Hamann</strong></a>,
+                Robert Bosch GmbH, Germany </p>
+            
+            <p style="margin-left: 1em;"><a href="http://www-personal.umich.edu/~orosz/"><strong>Gabor Orosz</strong></a>,
+                University of Michigan, USA </p>
+            
+            <p style="margin-left: 1em;"><a href="https://uwaterloo.ca/embedded-software-group/people-profiles/sebastian-fischmeister"><strong>Sebastian Fischmeister</strong></a>,
+                University    of    Waterloo,    Canada </p>
+            
+            <p style="margin-left: 1em;"><a href="https://www.lunduniversity.lu.se/lucat/user/956d85f12fa5ee7e7f40327c887c357c"><strong>Martina Maggio</strong></a>,
+                Lund University, Sweden </p>
+            
+            <p style="margin-left: 1em;"><a href="http://aicps.eng.uci.edu/"><strong>Mohammad Al Faruque</strong></a>,
+                University of California, Irvine, USA </p>
+            
+            <p style="margin-left: 1em;"><a href="http://aviral.lab.asu.edu/aviral-shrivastava/"><strong>Aviral Shrivastava</strong></a>,
+                Arizona State University, USA </p>
+            
+            <p style="margin-left: 1em;"><a href="https://www.seas.upenn.edu/~rahulm/"><strong>Rahul Mangharam</strong></a>,
+                University of Pennsylvania, USA </p>
+            
+            <p style="margin-left: 1em;"><a href="http://www-bcf.usc.edu/~jdeshmuk/"><strong>Jyotirmoy Vinay Deshmukh</strong></a>,
+                University of Southern California, USA </p>
+            
+            <p style="margin-left: 1em;"><a href="https://www.researchgate.net/profile/Donghwa_Shin3"><strong>Dongwha Shin</strong></a>,
+                Yeungnam University, Korea </p>
+            
+            <p style="margin-left: 1em;"><a href="https://www.rug.nl/staff/b.besselink/research"><strong>Bart Besselink</strong></a>,
+                University of Groningen, Netherlands </p>
+            
+            <p style="margin-left: 1em;"><a href="http://www.ece.neu.edu/people/lin-xue"><strong>Lin Xue</strong></a>,
+                Northeastern University, USA </p>
+            
+            <p style="margin-left: 1em;"><a href="https://www.onera.fr/en/staff/claire-pagetti"><strong>Claire Pagetti</strong></a>,
+                Onera, France </p>
+            
+            <p style="margin-left: 1em;"><a href="https://engineering.virginia.edu/faculty/madhur-behl"><strong>Madhur Behl</strong></a>,
+                University of Virginia, USA </p>
+            
+            <p style="margin-left: 1em;"><a href="https://ee.ethz.ch/the-department/people-a-z/person-detail.MjEwMzk5.TGlzdC8zMjc5LC0xNjUwNTg5ODIw.html"><strong>Daniele Palossi</strong></a>,
+                ETH Zurich, Switzerland </p>
+            
+            <p style="margin-left: 1em;"><a href="https://eecs.oregonstate.edu/people/abbas-houssam"><strong>Houssam Abbas</strong></a>,
+                Oregon State University, USA </p>
+            
+            <p style="margin-left: 1em;"><a href="http://www.es.mdh.se/staff/3266-Alessandro_Papadopoulos"><strong>Alessandro Papadopoulos</strong></a>,
+                Mälardalen University, Sweden </p>
+            
+            <p style="margin-left: 1em;"><a href="https://www.s.u-tokyo.ac.jp/en/people/kato_shinpei/"><strong>Shinpei Kato</strong></a>,
+                Nagoya and Tokyo University, Tokyo </p>
+            
+            <p style="margin-left: 1em;"><a href="https://www.ict.tuwien.ac.at/business-card/?tiss_id=3012741"><strong>Axel Jatsch</strong></a>,
+                TU Wien, Austria </p>
+            
+            <p style="margin-left: 1em;"><a href="https://www.sese.tu-berlin.de/menue/ueber_uns/team/sabine_glesner/"><strong>Sabine Glesner</strong></a>,
+                TU Berlin, Germany </p>
+            
+            
+            </p>
     </div>
 </div>
-
-<div class="row sponsor">
+<!-- <div class="row sponsor">
 
 
     
@@ -463,7 +547,7 @@
     </div>
     
 
-</div>
+</div> -->
     </div>
 </div>
  

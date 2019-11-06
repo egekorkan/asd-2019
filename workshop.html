@@ -1,0 +1,91 @@
+---
+layout: page
+slide_id: 3
+---
+
+
+<div class="row">
+
+    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 text-justify conference-text">
+        <p>
+            The workshop day consists of interactive and working sessions involving methodologies, application kernels and models,software tools and industrial challenges.
+        </p>
+
+        <p class="lead">Call For Papers (<a href="assets/DATE2020_Workshop_CFP.pdf">PDF</a>)</p>
+
+        <p>The goal of the workshop is to explore recent industrial and academic methods and methodologies in autonomous systems design. We invite interested contributors to submit papers to the workshop related, but not limited to, the following areas:</p>
+
+        <ul>
+            <li>Design for autonomous systems including processes, modeling, optimization, verification, validation, and test.</li>
+            <li>Embedded and cyber-physical systems platforms that implement and execute the autonomous system functions including their architectures, hardware, software, and communication.</li>
+            <li>Dependable systems design for autonomous systems including, but not limited to, functional safety concepts, fail-operational systems design, functional safety for applications with machine learning, safe and secure changes and updates, autonomous systems security.</li>
+        </ul>
+
+        <p>
+            To emphasize the workshop character, position papers and problem statements elaborating challenges in the design practice are welcome. We want to specifically introduce an ”Industrial Challenges” session and also ask for problem demos from industry to be presented in ASD. ”Demo Papers” as well as ”Industrial Practice Papers” of 2-4 pages are hence welcome. 
+        </p>
+
+        <p>
+            <b>Publishing Format </b> All accepted papers will be published in Dagstuhl’s OpenAccess Series in Informatics
+            (<a href="https://www.dagstuhl.de/en/publications/oasics">OASIcs</a>), free and open access online
+            proceedings. The papers will be referenced in major databases such as DBLP. Submitted papers should not
+            exceed 15 pages and should follow the OASIcs formatting instructions.
+        </p>
+
+        
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 ">
+        {% include card-important-dates.html %}
+
+
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-justify conference-text">
+        <p class="lead">Submission Instructions</p>
+
+        <p>
+            <b>Publishing Format </b> All accepted papers will be published in Dagstuhl’s OpenAccess Series in
+            Informatics
+            (<a href="https://www.dagstuhl.de/en/publications/oasics">OASIcs</a>), free and open access online
+            proceedings. The papers will be referenced in major databases such as DBLP. Submitted papers should
+            not
+            exceed 15 pages and should follow the OASIcs formatting instructions.
+        </p>
+
+        <p class="text-left">
+            <!-- <i class="fa fa-external-link fa-fw" aria-hidden="true"></i> -->
+            <strong> Submission Site </strong> : <a href="https://www.softconf.com/date20/ASD20/">
+                https://www.softconf.com/date20/ASD20/
+            </a>
+        </p>
+
+        <p>&nbsp;</p>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-justify conference-text">
+        <p class="lead">Committee</p>
+
+        <p><strong>Chairs</strong>
+            {% if site.data.conference.day2chairs %}
+            {% for chair in site.data.conference.day2chairs %}
+            <p style="margin-left: 1em;"><a href="{{ chair.homepage }}"><strong>{{ chair.name }}</strong></a>,
+                {{chair.org }} </p>
+            {% endfor %}
+            {% else %}
+            <p style="margin-left: 1em;">To be announced</p>
+            {% endif %}
+        </p>
+
+        <p><strong>Technical Program Committee</strong></p>
+            {% if site.data.conference.day2tpc %}
+            {% for member in site.data.conference.day2tpc %}
+            <p style="margin-left: 1em;"><a href="{{ member.homepage }}"><strong>{{ member.name }}</strong></a>, {{
+        member.org }} </p>
+            {% endfor %}
+            {% else %}
+            <p style="margin-left: 1em;">To be announced</p>
+            {% endif %}
+        </p>
+    </div>
+</div>
+<!-- {% include sponsors.html %} -->
