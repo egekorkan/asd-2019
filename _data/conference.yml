@@ -83,6 +83,10 @@ navbar:
     path: /
     visible: True
   - id: 1
+    label: Workshop
+    path: /workshop.html
+    visible: True
+  - id: 2
     label: Organizers
     path: /organization.html
     visible: True
@@ -94,23 +98,20 @@ navbar:
     label: Submission
     path: /submission.html
     visible: True
+
   - id: 5
-    label: Workshop Day
-    path: /workshop.html
-    visible: True
-  - id: 6
     label: Special Day
     path: /special.html
-    visible: True
-  - id: 7
+    visible: False
+  - id: 6
     label: Program
     path: /program.html
     visible: True
-  - id: 8
+  - id: 7
     label: Venue
     path: /venue.html
     visible: True
-  - id: 9
+  - id: 8
     label: Registration
     path: /registration.html
     visible: True
@@ -125,21 +126,27 @@ deadlines_initiative_day:
     pass_due: True
   - date: 2019-11-07
     text: Acceptance Notification
-    pass_due: False
+    pass_due: True
   - date: 2019-11-28
     text: Camera-ready Version
     pass_due: False
+  - date: 2020-03-12
+    text: Special Day
+    pass_due: False
 deadlines_workshop_day:
-  - date: 2019-12-02
+  - date: 2019-12-14
     timezone: 23:59 (CET)
     text: Abstract Submission
     pass_due: False
-  - date: 2019-12-09
+  - date: 2019-12-21
     timezone: 23:59 (CET)
     text: Full Paper Submission
     pass_due: False
-  - date: 2020-01-20
+  - date: 2020-01-31
     text: Acceptance Notification
+    pass_due: False
+  - date: 2020-03-13
+    text: Workshop Day
     pass_due: False
 news:
   - date: 2019-07-23
@@ -151,8 +158,8 @@ sponsors:
   - name: DATE
     # logo_path: ./assets/images/date.jpg
     small_logo_path: ./assets/images/dateSmall.png
-  # - name: oasics
-  #   logo_path: ./assets/images/OASIcs-147x49_01.jpg
+  - name: oasics
+    logo_path: ./assets/images/OASIcs-147x49_01.jpg
   # - name: ceda
   #   logo_path: ./assets/images/IEEE-CEDA-Logo.png
   # - name: TUBr
@@ -167,7 +174,7 @@ organizers:
     org: TU Braunschweig, Germany
     homepage: https://www.ida.ing.tu-bs.de/home/mitarbeiter/ernst
   - name: Selma Saidi
-    org: Hamburg University of Technology, Germany
+    org: TU Dortmund, Germany
     homepage: https://www.tuhh.de/es/esd/people/selma-saidi.html
   - name: Dirk Ziegenbein 
     org: Robert Bosch GmbH, Germany
@@ -182,7 +189,7 @@ webmaster:
     homepage: https://www.esi.ei.tum.de/en/staff/korkan/
 day1chairs:
   - name: Selma Saidi
-    org: Hamburg University of Technology, Germany
+    org: TU Dortmund, Germany
     homepage: https://www.tuhh.de/es/esd/people/selma-saidi.html
   - name: Marko Bertogna
     org: University of Modena, Italy
