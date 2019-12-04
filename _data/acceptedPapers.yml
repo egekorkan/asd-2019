@@ -1,18 +1,49 @@
-- id: 1
-  title: "Fault-Tolerance by Graceful Degradation for Car Platoons"
-  authors: "Mohammed Baha E. Zarrouki, Verena Klös, Markus Grabowski and Sabine Glesner"
-- id: 2
-  title: "Feasibility Study and Benchmarking of Embedded MPC for Vehicle Platoons"
-  authors: "Inaki Martin Soroa, Amr Inbrahim, Dip Goswami and Hong Li"
-- id: 3
-  title: "IDF-Autoware: Integrated Development Framework for ROS-based Self-driving Systems Using MATLAB/Simulink"
-  authors: "Shota Tokunaga, Yuki Horita, Yasuhiro Oda and Takuya Azumi"
-- id: 4
-  title: "Controlling Concurrent Change- A Multiview Approach Toward Updatable Vehicle Automation Systems"
-  authors: "Marcus Nolte, Mischa Möstl, Johannes Schlatow and Rolf Ernst"
-- id: 5
-  title: "Safety and Security Analysis of AEB for L4 Autonomous Vehicle using STPA"
-  authors: "Shefali Sharma, Adan Flores, Chris Hobbs, Jeff Stafford and Sebastian Fischmeister"
-- id: 6
-  title: "Towards a Formal Model of Recursive Self-Reflection"
-  authors: "Axel Jantsch"
+sessions:
+  - id: 1
+    name: Architectures and Frameworks for Autonomous Systems
+    papers:
+    - id: 1027
+      title: "DeepRacing: A framework for Agile Autonomy"
+      authors: "Trent Weiss, Madhur Behl"
+    - id: 1028
+      title: "Fail-Operational Automotive Software Design Using Agent-Based Graceful Degradation"
+      authors: "Philipp Weiss, Andreas Weichslgartner, Felix Reimann, Sebastian Steinhorst"
+    - id: 1029
+      title: "IDF-Autoware: Integrated Development Framework for ROS-based Self-driving Systems Using MATLAB/Simulink"
+      authors: "Tjerk Bijlsma, Andrii Buriachevskyi, Alessandro Frigerio, Yuting Fu, Kees Goossens, Ali Osman Örs, Pieter J. van der Perk, Andrei Terechko, Bart Vermeulen"
+  - id: 2
+    name: Uncertainty Handling in Safe Autonomous Systems
+    papers:
+    - id: 1030
+      title: "Making the Relationship between Uncertainty Estimation and Safety Less Uncertain"
+      authors: "Peter Schlicht, Volkswagen, Vincent Aravantinos, Fabian Hüger"
+    - id: 1031
+      title: "System Theoretic View on Uncertainties"
+      authors: "Roman Gansch, Ahmad Adee"
+    - id: 1032
+      title: "Detection of False Negative and False Positive Samples in Semantic Segmentation"
+      authors: "Hanno Gottschalk, Matthias Rottmann, Kira Maag, Robin Chan, Fabian Hüger, Peter Schlicht"
+  - id: 3
+    name: "Autonomous Cyber-Physical Systems: Modeling and Verification"
+    papers:
+    - id: x
+      title: "Trustworthy Autonomy: Behavior Prediction and Validation"
+      authors: "Katherine Driggs-Campbell"
+    - id: x
+      title: "On Infusing Logical Reasoning into Robot Learning"
+      authors: "Marco Pavone"
+    - id: x
+      title: "Formally-Specifiable Agent Behavior Models for Autonomous Vehicle Test Generation"
+      authors: "Jonathan DeCastro"
+  - id: 4
+    name: "Emerging Approaches to Autonomous Systems Design"
+    papers:
+    - id: x
+      title: "A Preliminary View on Automotive Cyber Security Management Systems"
+      authors: "Christoph Schmittner, Jürgen Dobaj, Georg Macher, Eugen Brenner"
+    - id: x
+      title: "Towards Safety Verification of Direct Perception Neural Networks"
+      authors: "Chih-Hong Cheng, Thomas Brunner, Vahid Hashemi"
+    - id: x
+      title: "Minimizing Execution Duration in the Presence of Learning-Enabled Components"
+      authors: "Kunal Agrawal, Sanjoy Baruah, Alan Burns, Abhishek Singh"

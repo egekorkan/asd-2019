@@ -6,21 +6,30 @@ slide_id: 8
 <div class="row">
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
-        To be Announced
-    </div>
-        <!-- You can find the list of accepted papers and interactive presentations below. A program with time slots will be
+        <!-- To be Announced
+    </div> -->
+        <p>
+        You can find the list of accepted papers and interactive presentations below. A program with time slots will be
         announced later.
+        </p>
+        
+        <div class="my-text-header"><h4>Thursday Special Day</h4>
 
-        <div class="my-text-header"><strong>Accepted Papers</strong></div>
-
-        {% for paper in site.data.acceptedPapers %}
-        <p class="my-text"><strong>{{paper.title}}</strong>
-            <br>{{ paper.authors }} </p>
+        {% for session in site.data.acceptedPapers.sessions %}
+            <h5>{{session.id}} - {{ session.name }} </h5>
+            {% for paper in session.papers %}
+            <p style="margin-left:2em"><strong>{{paper.title}}</strong>
+                <br>{{ paper.authors }} </p>
+            {% endfor %}
         {% endfor %}
 
-        <div class="my-text-header"><strong>Interactive Presentations</strong></div>
 
-        {% for paper in site.data.interactivePresentations %}
+        </div>
+        <div class="my-text-header"><h4>Friday Workshop</h4>
+
+            <p>To be Announced </p>
+            </div>
+        <!-- {% for paper in site.data.interactivePresentations %}
         <p class="my-text"><strong>{{paper.title}}</strong>
             <br>{{ paper.authors }} </p>
         {% endfor %} -->

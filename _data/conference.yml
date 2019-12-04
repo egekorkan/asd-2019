@@ -98,7 +98,6 @@ navbar:
     label: Submission
     path: /submission.html
     visible: True
-
   - id: 5
     label: Special Day
     path: /special.html
@@ -224,69 +223,69 @@ day1sc:
     org: Robert Bosch GmbH, Germany
     homepage: https://www.linkedin.com/in/dirk-ziegenbein-aa5a03/?originalSubdomain=de
 day1tpc:
-  - name: Arne Hamann
-    org: Robert Bosch GmbH, Germany
-    homepage: https://www.linkedin.com/in/arne-hamann-9045181/
-  - name: Gabor Orosz
-    org: University of Michigan, USA
-    homepage: http://www-personal.umich.edu/~orosz/
-  - name: Sebastian Fischmeister
-    org: University    of    Waterloo,    Canada
-    homepage: https://uwaterloo.ca/embedded-software-group/people-profiles/sebastian-fischmeister
-  - name: Martina Maggio
-    org: Lund University, Sweden
-    homepage: https://www.lunduniversity.lu.se/lucat/user/956d85f12fa5ee7e7f40327c887c357c
-  - name: Mohammad Al Faruque
-    org: University of California, Irvine, USA
-    homepage: http://aicps.eng.uci.edu/
-  - name: Aviral Shrivastava
-    org: Arizona State University, USA 
-    homepage: http://aviral.lab.asu.edu/aviral-shrivastava/
-  - name: Rahul Mangharam
-    org: University of Pennsylvania, USA
-    homepage: https://www.seas.upenn.edu/~rahulm/
-  - name: Jyotirmoy Vinay Deshmukh
-    org: University of Southern California, USA
-    homepage: http://www-bcf.usc.edu/~jdeshmuk/
-  # - name: Karl Meinke
-  #   org: KTH Royal Institute of Technology, Sweden
-  #   homepage: http://www.nada.kth.se/~karlm/
-  - name: Dongwha Shin
-    org: Yeungnam University, Korea
-    homepage: https://www.researchgate.net/profile/Donghwa_Shin3
-  - name: Bart Besselink
-    org: University of Groningen, Netherlands
-    homepage: https://www.rug.nl/staff/b.besselink/research
-  # - name: Samarjit Chakraborty
-  #   org: Technical University of Munich, Germany
-  #   homepage: https://www.rcs.ei.tum.de/en/staff/chakraborty/
-  - name: Lin Xue
-    org: Northeastern University, USA
-    homepage: http://www.ece.neu.edu/people/lin-xue
-  - name: Claire Pagetti
-    org: Onera, France
-    homepage: https://www.onera.fr/en/staff/claire-pagetti
-  - name: Madhur Behl
-    org: University of Virginia, USA
-    homepage: https://engineering.virginia.edu/faculty/madhur-behl
-  - name: Daniele Palossi
-    org: ETH Zurich, Switzerland
-    homepage: https://ee.ethz.ch/the-department/people-a-z/person-detail.MjEwMzk5.TGlzdC8zMjc5LC0xNjUwNTg5ODIw.html
   - name: Houssam Abbas
     org: Oregon State University, USA
     homepage: https://eecs.oregonstate.edu/people/abbas-houssam
-  - name: Alessandro Papadopoulos
-    org: Mälardalen University, Sweden
-    homepage: http://www.es.mdh.se/staff/3266-Alessandro_Papadopoulos
-  - name: Shinpei Kato
-    org: Nagoya and Tokyo University, Tokyo
-    homepage: https://www.s.u-tokyo.ac.jp/en/people/kato_shinpei/
-  - name: Axel Jatsch
-    org: TU Wien, Austria
-    homepage: https://www.ict.tuwien.ac.at/business-card/?tiss_id=3012741
+  - name: Mohammad Al Faruque
+    org: University of California, Irvine, USA
+    homepage: http://aicps.eng.uci.edu/
+  - name: Madhur Behl
+    org: University of Virginia, USA
+    homepage: https://engineering.virginia.edu/faculty/madhur-behl
+  - name: Bart Besselink
+    org: University of Groningen, Netherlands
+    homepage: https://www.rug.nl/staff/b.besselink/research
+  - name: Jyotirmoy Vinay Deshmukh
+    org: University of Southern California, USA
+    homepage: http://www-bcf.usc.edu/~jdeshmuk/
+  - name: Sebastian Fischmeister
+    org: University    of    Waterloo,    Canada
+    homepage: https://uwaterloo.ca/embedded-software-group/people-profiles/sebastian-fischmeister
   - name: Sabine Glesner
     org: TU Berlin, Germany
     homepage: https://www.sese.tu-berlin.de/menue/ueber_uns/team/sabine_glesner/
+  - name: Axel Jatsch
+    org: TU Wien, Austria
+    homepage: https://www.ict.tuwien.ac.at/business-card/?tiss_id=3012741
+  - name: Shinpei Kato
+    org: Nagoya and Tokyo University, Tokyo
+    homepage: https://www.s.u-tokyo.ac.jp/en/people/kato_shinpei/
+  - name: Arne Hamann
+    org: Robert Bosch GmbH, Germany
+    homepage: https://www.linkedin.com/in/arne-hamann-9045181/
+  - name: Martina Maggio
+    org: Lund University, Sweden
+    homepage: https://www.lunduniversity.lu.se/lucat/user/956d85f12fa5ee7e7f40327c887c357c
+  - name: Rahul Mangharam
+    org: University of Pennsylvania, USA
+    homepage: https://www.seas.upenn.edu/~rahulm/
+  - name: Gabor Orosz
+    org: University of Michigan, USA
+    homepage: http://www-personal.umich.edu/~orosz/
+  - name: Claire Pagetti
+    org: Onera, France
+    homepage: https://www.onera.fr/en/staff/claire-pagetti
+  - name: Daniele Palossi
+    org: ETH Zurich, Switzerland
+    homepage: https://ee.ethz.ch/the-department/people-a-z/person-detail.MjEwMzk5.TGlzdC8zMjc5LC0xNjUwNTg5ODIw.html
+  - name: Alessandro Papadopoulos
+    org: Mälardalen University, Sweden
+    homepage: http://www.es.mdh.se/staff/3266-Alessandro_Papadopoulos
+  - name: Dongwha Shin
+    org: Yeungnam University, Korea
+    homepage: https://www.researchgate.net/profile/Donghwa_Shin3
+  - name: Aviral Shrivastava
+    org: Arizona State University, USA 
+    homepage: http://aviral.lab.asu.edu/aviral-shrivastava/
+  - name: Lin Xue
+    org: Northeastern University, USA
+    homepage: http://www.ece.neu.edu/people/lin-xue
+  # - name: Karl Meinke
+  #   org: KTH Royal Institute of Technology, Sweden
+  #   homepage: http://www.nada.kth.se/~karlm/
+  # - name: Samarjit Chakraborty
+  #   org: Technical University of Munich, Germany
+  #   homepage: https://www.rcs.ei.tum.de/en/staff/chakraborty/
   # - name: Marco Di Natale
   #   org: Scuola Superiore Sant'Anna, Italy
   #   homepage: http://retis.sssup.it/~marco/
@@ -304,3 +303,46 @@ day2sc:
   - name: Dirk Ziegenbein 
     org: Robert Bosch GmbH, Germany
     homepage: https://www.linkedin.com/in/dirk-ziegenbein-aa5a03/?originalSubdomain=de
+day2tpc:
+  - name: Bart Besselink
+    org: University of Groningen, Netherlands
+    homepage: https://www.rug.nl/staff/b.besselink/research
+  - name: Paolo Burgio
+    org: Università degli Studi di Modena e Reggio Emilia
+    homepage: http://personale.unimore.it/rubrica/dettaglio/paolo.burgio
+  - name: Jyotirmoy Vinay Deshmukh
+    org: University of Southern California, USA
+    homepage: http://www-bcf.usc.edu/~jdeshmuk/
+  - name: Mohammad Hamad
+    org: TU Braunschweig
+    homepage: https://www.ida.ing.tu-bs.de/home/mitarbeiter/mohammad-hamad/
+  - name: Arne Hamann
+    org: Robert Bosch GmbH, Germany
+    homepage: https://www.linkedin.com/in/arne-hamann-9045181/
+  - name: Xiaoqing Jin
+    org: University of California Riverside
+    homepage: http://alumni.cs.ucr.edu/~jinx/
+  - name: Xue Lin
+    org: Northeastern University
+    homepage: https://web.northeastern.edu/xuelin/
+  - name: Martina Maggio
+    org: Lund University, Sweden
+    homepage: https://www.lunduniversity.lu.se/lucat/user/956d85f12fa5ee7e7f40327c887c357c
+  - name: Saravanan Ramanathan
+    org: TUM CREATE
+    homepage: https://www.tum-create.edu.sg/people/research-team/saravanan-ramanathan
+  - name: Selma Saidi
+    org: Hamburg University of Technology, Germany
+    homepage: https://www.tuhh.de/es/esd/people/
+  - name: Shreejith Shanker
+    org: TUM CREATE
+    homepage: https://www.tum-create.edu.sg/people/research-team/dr-shreejith-shanker
+  - name: Sebastian Steinhorst
+    org: Technical University of Munich, Germany
+    homepage: https://www.ei.tum.de/en/esi/staff/steinhorst/
+  - name: Andrei Terechko
+    org: NXP Semiconductors
+    homepage: https://www.researchgate.net/profile/Andrei_Terechko
+  - name: Philipp Mundhenk
+    org: Autonomous Intelligent Driving
+    homepage: https://www.linkedin.com/in/philipp-mundhenk-1849b521/
