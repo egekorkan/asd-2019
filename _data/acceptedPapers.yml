@@ -9,7 +9,7 @@ sessions:
       title: "Fail-Operational Automotive Software Design Using Agent-Based Graceful Degradation"
       authors: "Philipp Weiss, Andreas Weichslgartner, Felix Reimann, Sebastian Steinhorst"
     - id: 1029
-      title: "IDF-Autoware: Integrated Development Framework for ROS-based Self-driving Systems Using MATLAB/Simulink"
+      title: "A Distributed Safety Mechanism Using Middleware and Hypervisors for Autonomous Vehicles"
       authors: "Tjerk Bijlsma, Andrii Buriachevskyi, Alessandro Frigerio, Yuting Fu, Kees Goossens, Ali Osman Örs, Pieter J. van der Perk, Andrei Terechko, Bart Vermeulen"
   - id: 2
     name: Uncertainty Handling in Safe Autonomous Systems

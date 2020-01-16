@@ -89,6 +89,23 @@ Informatics (<a href="https://www.dagstuhl.de/en/publications/oasics">OASIcs</a>
 
 <br> </br>
 
+<h5><b>Keynotes</b></h5>
+
+{% for keynote in site.data.keynote %}
+<h7> <b>Keynote {{ keynote.id }}: {{keynote.talkTitle}} </b></h7>
+
+<p>
+<b>{{keynote.speakerName}}</b>, {{keynote.speakerTitle}}, {{keynote.speakerCompany}}
+</p>
+<p>
+    <b>Summary:</b> {{keynote.talkAbstract}}
+</p>
+<p>
+    <b>Speaker Bio:</b> {{keynote.speakerBio}}
+</p>
+
+{% endfor %}
+
 <!-- <h6><b>Keynotes</b></h6>
 
         This year, the workshop will have two distinguished industrial keynotes highlighting
