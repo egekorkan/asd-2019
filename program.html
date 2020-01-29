@@ -27,8 +27,32 @@ slide_id: 8
         </div>
         <div class="my-text-header"><h4>Friday Workshop</h4>
 
-            <p>To be Announced </p>
-            </div>
+            <h5 id="sec-keynotes"><b>Keynotes</b></h5>
+
+            {% for keynote in site.data.keynote %}
+                <h7> <b>Keynote {{ keynote.id }}: {{keynote.talkTitle}} </b></h7>
+
+                <p>
+                    <b>{{keynote.speakerName}}</b>, {{keynote.speakerTitle}}, {{keynote.speakerCompany}}
+                </p>
+                <p>
+                    <b>Summary:</b> {{keynote.talkAbstract}}
+                </p>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <img src={{keynote.speakerPhoto}} style="width:100%;">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 conference-text">
+                        <p>
+                            {{keynote.speakerBio}}
+                        </p>
+                    </div>
+                </div>
+            <br>
+            {% endfor %}
+
+            <div>The program with paper presentations is to be announced </div>
+        </div>
         <!-- {% for paper in site.data.interactivePresentations %}
         <p class="my-text"><strong>{{paper.title}}</strong>
             <br>{{ paper.authors }} </p>

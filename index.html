@@ -43,7 +43,7 @@ slide_id: 0
             domains such as avionics and robotics.
         </p>
         <p>
-            ASD is organized as a Thursday <i>Special</i> day and Friday <i>Workshop</i> day to constitute a two-day continuous program covering different industrial and academic methods and methodologies in the design, verification and validation of autonomous systems.
+            The ASD initiative is organized as a Thursday Special day and Friday Workshop day to constitute a two-day continuous program covering architectures and frameworks for autonomous systems, adaptive techniques for managing software and environmental uncertainty, and formal verification methods for safety assurance in machine learning algorithms.
             The main areas of interest include but are not limited to the following:
 
 
@@ -58,11 +58,17 @@ slide_id: 0
                 <li>case studies of autonomous systems design using innovative architectures, methods and tools.</li>
             </ul>
         </p>
+
+        <p>
+            This year, we will have two keynotes by Pascal Traverse from Airbus and Florian-Michael Adolf. <a
+                href="program.html">More details</a>
+        </p>
+
     </div>
 
     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-        {% include card-important-dates.html %}
-
+        <!-- {% include card-important-dates.html %} -->
+        {% include card-sponsor.html %}
 
     </div>
 </div>
@@ -70,6 +76,7 @@ slide_id: 0
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-justify conference-text"></div>
 
 <br> </br>
+
 
 <h6><b>Thursday Special Day</b></h6>
 <p>
@@ -89,22 +96,7 @@ Informatics (<a href="https://www.dagstuhl.de/en/publications/oasics">OASIcs</a>
 
 <br> </br>
 
-<h5><b>Keynotes</b></h5>
 
-{% for keynote in site.data.keynote %}
-<h7> <b>Keynote {{ keynote.id }}: {{keynote.talkTitle}} </b></h7>
-
-<p>
-<b>{{keynote.speakerName}}</b>, {{keynote.speakerTitle}}, {{keynote.speakerCompany}}
-</p>
-<p>
-    <b>Summary:</b> {{keynote.talkAbstract}}
-</p>
-<p>
-    <b>Speaker Bio:</b> {{keynote.speakerBio}}
-</p>
-
-{% endfor %}
 
 <!-- <h6><b>Keynotes</b></h6>
 

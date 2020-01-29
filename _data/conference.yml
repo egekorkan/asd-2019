@@ -140,7 +140,7 @@ deadlines_workshop_day:
   - date: 2020-01-05
     timezone: 23:59 (CET)
     text: <b> Extended </b> Full Paper Submission
-    pass_due: False
+    pass_due: True
   - date: 2020-01-31
     text: Acceptance Notification
     pass_due: False
