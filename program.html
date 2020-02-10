@@ -8,12 +8,13 @@ slide_id: 8
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
         <!-- To be Announced
     </div> -->
-        <p>
-        You can find the list of accepted papers and interactive presentations below and download <a
-            href="assets/ASD_SpecialDay_DATE2020_Sessions.pdf">here</a>. A program with time slots will be announced later.
-        </p>
-        
+
         <div class="my-text-header"><h4>Thursday Special Day</h4>
+
+        <p>
+            You can find the list of accepted papers and interactive presentations below and download <a
+                href="assets/ASD_SpecialDay_DATE2020_Sessions.pdf">here</a>. A program with time slots will be announced later.
+        </p>
 
         {% for session in site.data.acceptedPapers.sessions %}
             <h5>{{session.id}} - {{ session.name }} </h5>
@@ -40,7 +41,7 @@ slide_id: 8
                 </p>
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                        <img src={{keynote.speakerPhoto}} style="width:100%;">
+                        <img src={{keynote.speakerPhoto}} style="width:100%; padding-top: 5px;">
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 conference-text">
                         <p>
@@ -51,14 +52,13 @@ slide_id: 8
             <br>
             {% endfor %}
 
-            <div>The program with paper presentations is to be announced </div>
         </div>
         <!-- {% for paper in site.data.interactivePresentations %}
         <p class="my-text"><strong>{{paper.title}}</strong>
             <br>{{ paper.authors }} </p>
         {% endfor %} -->
-
-        <!-- {% for day in site.data.schedule %}
+        <p>Program as a PDF is available <a href="assets/W03 ASD 2020 Friday Workshop Program.pdf">here.</a></p>
+       {% for day in site.data.schedule %}
         <div>
 
             <table class="table table-bordered table-hover table-responsive table-sm">
@@ -128,10 +128,7 @@ slide_id: 8
             </table>
         </div>
         {% endfor %}
-    </div>
-
-</div>
-
+<!-- 
 <div>
 <h5 id="keynote1"><b>Keynote 1: Challenges of Automated and Connected Driving </b></h5>
 
