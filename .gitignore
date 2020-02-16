@@ -3,3 +3,4 @@ _site
 Gemfile.lock
 *.DS_Store
 assets/ASD2020-CFP.out
+_data

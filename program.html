@@ -9,24 +9,98 @@ slide_id: 8
         <!-- To be Announced
     </div> -->
 
-        <div class="my-text-header"><h4>Thursday Special Day</h4>
+        <div class="my-text-header">
+            <h4 id="thursday">Thursday Special Day</h4>
 
         <p>
             You can find the list of accepted papers and interactive presentations below and download <a
-                href="assets/ASD_SpecialDay_DATE2020_Sessions.pdf">here</a>. A program with time slots will be announced later.
+                href="assets/ASD_SpecialDay_DATE2020_Sessions.pdf">here</a>.
         </p>
 
-        {% for session in site.data.acceptedPapers.sessions %}
+        {% for day in site.data.scheduleThursday %}
+        <div>
+        
+            <table class="table table-bordered table-hover table-responsive table-sm">
+                <thead>
+                    <tr class="head-head">
+                        <th class="bg-light text-center">
+                            <h5>Time</h5>
+                        </th>
+        
+                        <th class="bg-light text-center">
+                            <h5>Description</h5>
+                        </th>
+                    </tr>
+                </thead>
+                {% for timeslot in day.timeslots %}
+                <thead>
+                    <tr class="head-schedule">
+                        <th class="text-center">
+        
+                            <div>{{timeslot.startTime}}</div>
+                        </th>
+        
+                        {% if timeslot.type == "service" %}
+                        <th class="bg-light text-center">
+        
+                            <div class="text-gray-light">{{timeslot.title}}</div>
+                        </th>
+                        {% else %}
+        
+                        <th class="bg-light text-center">
+                            <div class="text-gray-light">{{timeslot.title}}</div>
+                        </th>
+                        {% endif %}
+                    </tr>
+                </thead>
+                {% if timeslot.events %}
+                <tbody>
+                    {% for event in timeslot.events %}
+                    <tr>
+                        <td width="10%">
+                        </td>
+        
+                        <td width="90%">
+        
+                            {% if event.link %}
+                            <h6><b><a href="{{event.link}}">{{event.title}}</b></a>
+                            </h6>
+                            <p>
+                                {{event.speakers}}
+                                <br>
+                                {{event.organisations}}
+                            </p>
+                            {% else %}
+                            <h6><b>{{event.title}}</b></h6>
+                            <p>
+                                {{event.speakers}}
+                                <br>
+                                {{event.organisations}}
+                            </p>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+                {% endif %}
+                {% endfor %}
+            </table>
+        </div>
+        {% endfor %}
+
+        <!-- {% for session in site.data.acceptedPapers.sessions %}
             <h5>{{session.id}} - {{ session.name }} </h5>
             {% for paper in session.papers %}
             <p style="margin-left:2em"><strong>{{paper.title}}</strong>
                 <br>{{ paper.authors }} </p>
             {% endfor %}
-        {% endfor %}
+        {% endfor %} -->
 
 
         </div>
-        <div class="my-text-header"><h4>Friday Workshop</h4>
+        <div class="my-text-header">
+            
+            <h4 id="friday">Friday Workshop</h4>
 
             <h5 id="sec-keynotes"><b>Keynotes</b></h5>
 
@@ -58,7 +132,7 @@ slide_id: 8
             <br>{{ paper.authors }} </p>
         {% endfor %} -->
         <p>Program as a PDF is available <a href="assets/W03 ASD 2020 Friday Workshop Program.pdf">here.</a></p>
-       {% for day in site.data.schedule %}
+       {% for day in site.data.scheduleFriday %}
         <div>
 
             <table class="table table-bordered table-hover table-responsive table-sm">

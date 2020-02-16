@@ -4,7 +4,7 @@ sessions:
     papers:
     - id: 1027
       title: "DeepRacing: A framework for Agile Autonomy"
-      authors: "Trent Weiss, Madhur Behl"
+      authors: "Trent Weiss and Madhur Behl, University of Virginia, US"
     - id: 1028
       title: "Fail-Operational Automotive Software Design Using Agent-Based Graceful Degradation"
       authors: "Philipp Weiss, Andreas Weichslgartner, Felix Reimann, Sebastian Steinhorst"
